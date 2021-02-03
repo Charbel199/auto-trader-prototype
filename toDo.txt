@@ -1,0 +1,8 @@
+Strategy:
+    4 hours candlesticks
+MACD
+
+uptrend
+
+Check supports ?
+VWAP bigger sypport 2-3 hours VWAP under our prices then it's a support -> When it touches VWAP  
