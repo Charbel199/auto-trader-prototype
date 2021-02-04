@@ -5,4 +5,9 @@ MACD
 uptrend
 
 Check supports ?
-VWAP bigger sypport 2-3 hours VWAP under our prices then it's a support -> When it touches VWAP  
+VWAP bigger support 2-3 hours VWAP under our prices then it's a support -> When it touches VWAP
+
+
+-Implement VWAP
+-Implement *if* uptrend
+-Implement MACD

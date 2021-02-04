@@ -1,30 +1,8 @@
 import backtrader as bt
-class RSIStrategy(bt.Strategy):
-
-    def __init__(self):
-        self.rsi = bt.indicators.RSI_SMA(self.data.close, period=14)
-
-    def next(self):
-        if not self.position:
-            if self.rsi < 30:
-                self.buy(size=5)
-        else:
-            if self.rsi > 70:
-                self.close()
-
-            
-class MyStrategy(bt.Strategy):
-
-    def __init__(self):
-        self.sma = bt.indicators.SimpleMovingAverage(period=15)
-
-    def next(self):
-        if self.sma > self.data.close:
-            self.buy(size=1)
+from strategies import simpleMovingAverage
 
 
-        elif self.sma < self.data.close:
-            self.close()# Do something else
+
 
 class TestStrategy(bt.Strategy):
     def log(self, txt, dt=None):
@@ -84,20 +62,24 @@ class TestStrategy(bt.Strategy):
         if not self.position:
             if (self.rsi[0] < 30):
                 self.log('BUY CREATE, %.2f' % self.dataclose[0])
-                self.order = self.buy(size=500)
+                self.order = self.buy(size=30)
 
         else:
             if (self.rsi[0] > 70):
                 self.log('SELL CREATE, %.2f' % self.dataclose[0])
-                self.order = self.sell(size=500)
+                self.order = self.sell(size=30)
 
 cerebro = bt.Cerebro()
-cerebro.broker.set_cash(10000)
-data = bt.feeds.GenericCSVData(dataname='dailyltc.csv',dtformat=2)
+cerebro.broker.set_cash(1000)
+data = bt.feeds.GenericCSVData(
+    dataname='data/ltc4h.csv',
+    dtformat=2,
+    timeframe=bt.TimeFrame.Minutes,
+    compression=240)
 
 print(cerebro.broker.getvalue())
 cerebro.adddata(data)
-cerebro.addstrategy(RSIStrategy)
+cerebro.addstrategy(simpleMovingAverage.SMAStrategy)
 
 cerebro.run()
 print(cerebro.broker.getvalue())

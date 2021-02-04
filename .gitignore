@@ -1,2 +1,4 @@
 configure.py
 setupenv.bat
+__pycache__
+.idea
