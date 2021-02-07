@@ -15,8 +15,9 @@ print(readabletime)
 client = Client(config.API_KEY,config.API_SECRET)
 csvfile = open('data/test1m.csv','w',newline='')
 candlestick_writer = csv.writer(csvfile)
+date = "06 Feb, 2021"
 
-candlesticks = client.get_historical_klines("LTCUSDT", Client.KLINE_INTERVAL_1MINUTE,readabletime)
+candlesticks = client.get_historical_klines("LTCUSDT", Client.KLINE_INTERVAL_1MINUTE,date)
 
 for candlestick in candlesticks:
     candlestick_writer.writerow(candlestick)

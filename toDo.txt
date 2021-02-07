@@ -11,3 +11,11 @@ VWAP bigger support 2-3 hours VWAP under our prices then it's a support -> When 
 -Implement VWAP
 -Implement *if* uptrend
 -Implement MACD
+
+Might use 200 EMA to test direction of market, if market above -> Uptrend
+
+Market above EMA and MACD line crosses above signal while greatly below 0-> Buy
+Market below EMA and MACD line crosses below signal while above 0 -> Sell
+
+if last open below vwap and close above buy signal (Maybe check if next candle stick is green)
+If last open above vwap and close below sell signal

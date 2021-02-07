@@ -25,7 +25,7 @@ def initialize_data():
     global candlesticks
     candlesticks = []
 
-    with open('data/ltc1m.csv', 'r') as f:
+    with open('data/test1m.csv', 'r') as f:
         reader = csv.reader(f)
         for row in reader:
            # print(row)
@@ -45,6 +45,9 @@ def run_test():
     idx = 0
     while True:
         inputval = input("Enter something: ")
+        if(idx > len(candlesticks)):
+            print('All data was processed')
+            continue
         if(inputval == "s"):
             print('Done')
             break

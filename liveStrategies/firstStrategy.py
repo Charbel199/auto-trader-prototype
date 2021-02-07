@@ -8,13 +8,13 @@ import time
 
 class testStrategy:
     candlesticks = []
-    messages = []
     current_tick = None
     prev_tick = None
 
     ###Indicators
     ##Vwap indicator
-    vwap_indicator = []
+    vwap_indicator = {}
+    #Assuming timeframe in minutes (To get one day)
     VWAP_INDICATOR_LOOKBACK = 14
     volume_times_typicalprice = []
 
@@ -34,7 +34,8 @@ class testStrategy:
 
     def __init__(self,timeframe):
         self.timeframe = timeframe
-
+        # Assuming timeframe in minutes (To get one day)
+        # self.VWAP_INDICATOR_LOOKBACK = int(1440/int(self.timeframe[0]))
 
     def log(self, time, txt, dt=None):
         print('{} {}'.format(time, txt))
@@ -97,10 +98,11 @@ class testStrategy:
             #print('CAN GET VWAP')
             volumes = [float(candlestick['volume']) for candlestick in self.candlesticks]
             vwap = sum(self.volume_times_typicalprice[-self.VWAP_INDICATOR_LOOKBACK:]) / sum(volumes[-self.VWAP_INDICATOR_LOOKBACK:])
-            self.vwap_indicator.append({
-                "time": self.candlesticks[-1]['time'],
-                "vwap_indicator": vwap
-            })
+            self.vwap_indicator[self.candlesticks[-1]['time']] = vwap
+            #self.vwap_indicator.append({
+           #     "time": self.candlesticks[-1]['time'],
+           #     "vwap_indicator":
+           # })
     ### TODO change prev_tick to last candlestick
     def process_vwap_typicalprice_times_volume(self):
         typicalprice = (float(self.prev_tick['close']) + float(self.prev_tick['high']) + float(
@@ -191,6 +193,11 @@ class testStrategy:
             txt_file.write("CANDLESTICKS\n\n")
             for line in self.candlesticks:
                 txt_file.write(json.dumps(line))
+                txt_file.write("\t")
+                if(self.vwap_indicator.get(line['time'])):
+                    txt_file.write(str(self.vwap_indicator.get(line['time'])))
+                else:
+                    txt_file.write("No data")
                 txt_file.write("\n")
             txt_file.write("\n\nVWAP\n\n")
             for line in self.vwap_indicator:
