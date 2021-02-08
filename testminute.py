@@ -7,4 +7,6 @@ dict = {
 for d in dict:
     print(dict[d])
 
-print(list(dict)[-1])
+
+
+print(list(dict.values()))

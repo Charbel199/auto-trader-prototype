@@ -48,6 +48,9 @@ def run_test():
         if(idx > len(candlesticks)):
             print('All data was processed')
             continue
+        if(inputval == "plot"):
+            strategy.plot()
+            continue
         if(inputval == "s"):
             print('Done')
             break
@@ -67,7 +70,7 @@ def run_test():
 
 def main():
     global strategy
-    strategy = testStrategy(timeframe=timeframe)
+    strategy = testStrategy(timeframe=timeframe,crypto=crypto)
     initialize_data()
     run_test()
 
