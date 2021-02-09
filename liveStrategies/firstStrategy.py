@@ -4,11 +4,14 @@ import configure as config
 from binance.client import Client
 import matplotlib.pyplot as plt
 
+
 class testStrategy:
     candlesticks = []
     current_tick = None
     prev_tick = None
 
+    stop_loss_flag = False
+    stop_loss_counter = 0
     ###Indicators
     ##Vwap indicator
     vwap_indicator = {}
@@ -30,6 +33,7 @@ class testStrategy:
     ema_values_2 = {}
     macd_indicator = {}
     ema_values_3 = {}
+    macd_flag = -1
 
     ###Transactions
     ##Buy
@@ -40,12 +44,14 @@ class testStrategy:
     position = {}
     ##Initial Balance
     balance_history = {}
-    balance = 1000
+    balance = 100
+
     def __init__(self, timeframe, crypto):
         self.crypto_usdt = crypto + "usdt"
         self.timeframe = timeframe
         # Assuming timeframe in minutes (To get one day)
-       # self.VWAP_INDICATOR_LOOKBACK = int(1440/int(self.timeframe[0]))
+        # self.VWAP_INDICATOR_LOOKBACK = int(1440/int(self.timeframe[0]))
+        print("Processing ...")
 
     def log(self, time, txt, dt=None):
         print('{} {}'.format(time, txt))
@@ -69,7 +75,7 @@ class testStrategy:
             "close": float(close),
             "volume": float(volume)
         }
-
+        print(self.stop_loss_counter)
         if (not self.current_tick):
             self.current_tick = tick
         else:
@@ -80,10 +86,10 @@ class testStrategy:
         if (self.current_tick and self.prev_tick):
             ###If one minute has passed then insert candlestick  TODO: Make it automatic
             if (self.prev_tick['minute'] != self.current_tick['minute']):
-                print(self.balance)
-                self.log(time, self.prev_tick)
-                self.log(time, self.current_tick)
-                print("THERE IS CHANGE")
+                # print(self.balance)
+                # self.log(time, self.prev_tick)
+                # self.log(time, self.current_tick)
+                # print("THERE IS CHANGE")
                 self.candlesticks.append(self.prev_tick)
 
                 ##VWAP processing
@@ -92,9 +98,10 @@ class testStrategy:
 
                 ##MACD
                 self.process_macd()
-               # self.end()
+                # self.end()
 
-                self.test_transaction_strategy()
+                # self.test_transaction_strategy()
+                self.test_macd_strat()
                 self.balance_history[self.candlesticks[-1]['time']] = self.balance
 
     ###VWAP indicator
@@ -127,7 +134,7 @@ class testStrategy:
         # macd_values = [float(macd['macd_indicator']) for macd in self.macd_indicator]
         macd_values = list(self.macd_indicator.values())
         self.get_ema(self.EMA_MULTIPLIER_PERIODS_3, self.EMA_MULTIPLIER_3, self.ema_values_3, macd_values)
-        print('done process macd')
+        # print('done process macd')
 
     def get_ema(self, period, multiplier, ema_list, reference_list):
         if (len(reference_list) >= period):
@@ -145,19 +152,19 @@ class testStrategy:
                 spread = recent_value - ema_list[list(ema_list)[-1]]
                 ema_value = spread * multiplier + ema_list[list(ema_list)[-1]]
                 ema_list[self.candlesticks[-1]['time']] = ema_value
-        print('Done with get ema')
+                # print('Done with get ema')
 
     def get_macd(self):
         ###Considering ema_period_2 is bigger than the first
         if (len(self.ema_values_2) != 0):
-            print('CAN GET MACD')
+            # print('CAN GET MACD')
             macd_value = self.ema_values_1[list(self.ema_values_1)[-1]] - self.ema_values_2[list(self.ema_values_2)[-1]]
             self.macd_indicator[self.candlesticks[-1]['time']] = macd_value
             # self.macd_indicator.append({
             #    "time": self.candlesticks[-1]['time'],
             #    "macd_indicator": macd_value
             # })
-        print('Done with get macd')
+            # print('Done with get macd')
 
     ###After processing, after getting one new candlestick
     def end(self):
@@ -237,7 +244,7 @@ class testStrategy:
         unix_time = int(datetime.utcnow().timestamp())
         old_unix_time = unix_time - unix_minus
         old_readable_time = datetime.fromtimestamp(old_unix_time).strftime("%d %b %Y %H:%M ")
-        print('Getting old candlesticks')
+        # print('Getting old candlesticks')
         ###TODO: KLINE INTERVAL 1 MINUTE should depend on input time frame
         fetched_data = client.get_historical_klines(self.crypto_usdt.upper(), Client.KLINE_INTERVAL_1MINUTE,
                                                     old_readable_time)
@@ -256,50 +263,80 @@ class testStrategy:
         for old_candlestick in old_candlesticks:
             self.add_message(old_candlestick)
 
-
     ###Transactions
     def test_transaction_strategy(self):
-        if(self.vwap_indicator):
+        if (self.vwap_indicator):
             last_vwap_val = self.vwap_indicator[list(self.vwap_indicator)[-1]]
             last_close = self.candlesticks[-1]['close']
-            print("close vs vwap: ",last_close," ",last_vwap_val)
-            if(last_vwap_val>last_close):
-                if(self.vwap_flag == 1):
-                    self.buy(list(self.vwap_indicator)[-1],5,last_close)
+            # print("close vs vwap: ",last_close," ",last_vwap_val)
+            if (last_vwap_val > last_close):
+                if (self.vwap_flag == 1):
+                    self.buy(list(self.vwap_indicator)[-1], 30, last_close)
                     self.vwap_flag = 0
                 else:
                     self.vwap_flag = 0
-            elif(last_vwap_val<last_close):
+            elif (last_vwap_val < last_close):
                 if (self.vwap_flag == 0):
-                    self.sell_all(list(self.vwap_indicator)[-1],last_close)
+                    self.sell_all(list(self.vwap_indicator)[-1], last_close)
                     self.vwap_flag = 1
                 else:
                     self.vwap_flag = 1
         else:
             print("No vwap")
 
+    def test_macd_strat(self):
+        if (self.ema_values_3):
+            current_macd = self.macd_indicator[list(self.macd_indicator)[-1]]
+            current_signal = self.ema_values_3[list(self.ema_values_3)[-1]]
+            last_close = self.candlesticks[-1]['close']
+
+            if (self.stop_loss_counter >= 3):
+                if (self.candlesticks[-3]['close'] > self.candlesticks[-3]['open'] and self.candlesticks[-2]['close'] >
+                    self.candlesticks[-2]['open'] and self.candlesticks[-1]['close'] > self.candlesticks[-1]['open']):
+                    self.stop_loss_counter = 0
+                return
+
+            if (self.position):
+                quantity = self.position[list(self.position)[-1]]
+                current_quantity_price = quantity * last_close
+                if (current_quantity_price < (50 * 0.98)):
+                    self.sell_all(list(self.macd_indicator)[-1], last_close)
+                    self.stop_loss_flag = True
+                    self.stop_loss_counter += 1
+
+            if (current_macd > current_signal):
+                if (self.macd_flag == 0 and current_macd < 0 and not self.stop_loss_flag):
+                    self.buy(list(self.macd_indicator)[-1], 50, last_close)
+                self.macd_flag = 1
+
+
+            elif (current_macd < current_signal):
+                if (self.macd_flag == 1 and current_macd > 0):
+                    self.sell_all(list(self.macd_indicator)[-1], last_close)
+                    # Reset counter
+                    self.stop_loss_counter = 0
+                self.macd_flag = 0
+            if (current_macd > 0):
+                self.stop_loss_flag = False
+
     ##Buy order
     def buy(self, time, amount, price):
         if (not self.position):
-            self.buy_orders[time] = amount*price
-            self.balance = self.balance - amount*price
-            self.position[time] = amount
-
+            self.buy_orders[time] = amount
+            self.balance = self.balance - amount
+            self.position[time] = amount / price
 
     ##Sell order
     def sell_all(self, time, price):
-        if(self.position):
-            #Sell the amount in the position
+        if (self.position):
+            # Sell the amount in the position
             self.sell_orders[time] = price * self.position[list(self.position)[-1]]
             self.balance = self.balance + price * self.position[list(self.position)[-1]]
-            #Empty position after selling
+            # Empty position after selling
             self.position.clear()
-
 
     def sell(selfself, time, amount, price):
         pass
-
-
 
     ###Plotting
     def plot(self):
@@ -309,11 +346,11 @@ class testStrategy:
         vwap_values = list(self.vwap_indicator.values())
         buy_times = list(self.buy_orders)
         sell_times = list(self.sell_orders)
-        plt.plot(times,close_values)
+        plt.plot(times, close_values)
         plt.plot(vwap_times, vwap_values, color="b")
         for buy_time in buy_times:
-            plt.scatter(buy_time,self.buy_orders[buy_time]/5,color="g",marker='^')
+            plt.scatter(buy_time, self.buy_orders[buy_time] / 110, color="g", marker='^')
         for sell_time in sell_times:
-            plt.scatter(sell_time, self.sell_orders[sell_time]/5, color="r", marker='+')
+            plt.scatter(sell_time, self.sell_orders[sell_time] / 110, color="r", marker='+')
         plt.xticks([])
         plt.show()
