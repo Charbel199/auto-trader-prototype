@@ -48,7 +48,7 @@ def on_open(ws):
 def on_message(ws, message):
     message = json.loads(message)
     strategy.add_tick(message)
-    strategy.print_to_txt(output_file_name)
+    strategy.log_to_txt(output_file_name)
     #strategy.end()
 
 

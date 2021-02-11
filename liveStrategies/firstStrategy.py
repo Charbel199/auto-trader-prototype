@@ -5,6 +5,8 @@ import configure as config
 from binance.client import Client
 import matplotlib.pyplot as plt
 from processing import vwap_processing, macd_processing
+from data_logging import log_to_txt
+from plotting import plot
 
 class TestStrategy:
     ###Candlesticks and ticks
@@ -132,7 +134,7 @@ class TestStrategy:
 
             # self.test_transaction_strategy()
             self.test_macd_strat()
-            self.balance_history[self.candlesticks[-1]['time']] = self.balance
+            self.balance_history[self.candlesticks[-1]['open_time']] = self.balance
 
     ###VWAP indicator
     def process_vwap(self):
@@ -162,73 +164,20 @@ class TestStrategy:
             self.macd_indicator[self.candlesticks[-1]['open_time']] = macd_value
 
 
-    ###After processing, after getting one new candlestick
-    def end(self):
-        print(self.candlesticks)
-        print('Candlestick len: ', len(self.candlesticks), 'VWAP len: ', len(self.vwap_indicator))
-        print('EMA1 len: ', len(self.ema_values_1), 'EMA2 len: ', len(self.ema_values_2), 'EMA3 len: ',
-              len(self.ema_values_3))
-        print('MACD len: ', len(self.macd_indicator))
-        if (self.vwap_indicator):
-            print(self.vwap_indicator)
-        if (self.macd_indicator):
-            print(self.macd_indicator)
-        if (self.ema_values_3):
-            print(self.ema_values_3)
 
-        self.print_to_txt("output_of_live_trader.txt")
-        print("\n====================")
-        print("====================\n")
+    def log_to_txt(self, txt):
+        log_to_txt.print_to_txt(
+            txt_file= txt,
+            candlesticks= self.candlesticks,
+            vwap_indicator= self.vwap_indicator,
+            macd_indicator= self.macd_indicator,
+            ema_values_3= self.ema_values_2,
+            buy_orders= self.buy_orders,
+            sell_orders= self.sell_orders,
+            balance_history= self.balance_history
+        )
 
-    def print_to_txt(self, txt):
-        with open(txt, "w") as txt_file:
-            for line in self.candlesticks:
-                txt_file.write(line["open_time"].strftime('%Y-%m-%d %H:%M'))
-                txt_file.write("\t")
-                txt_file.write("Close: ")
-                txt_file.write("{:.2f}".format(line["close"]))
-                txt_file.write("\t")
-                txt_file.write("Open: ")
-                txt_file.write("{:.2f}".format(line["open"]))
-                txt_file.write("\t")
-                txt_file.write("Low: ")
-                txt_file.write("{:.2f}".format(line["low"]))
-                txt_file.write("\t")
-                txt_file.write("High: ")
-                txt_file.write("{:.2f}".format(line["high"]))
-                txt_file.write("\t")
-                if (self.vwap_indicator.get(line['open_time'])):
-                    txt_file.write("{:.2f}".format(self.vwap_indicator.get(line['open_time'])))
-                else:
-                    txt_file.write("No data")
-                txt_file.write("\t")
-                if (self.macd_indicator.get(line['open_time'])):
-                    txt_file.write("{:.2f}".format(self.macd_indicator.get(line['open_time'])))
-                else:
-                    txt_file.write("No data")
-                txt_file.write("\t")
-                if (self.ema_values_3.get(line['open_time'])):
-                    txt_file.write("{:.2f}".format(self.ema_values_3.get(line['open_time'])))
-                else:
-                    txt_file.write("No data")
-                txt_file.write("\t")
-                txt_file.write("\t")
-                txt_file.write("\t")
-                if (self.buy_orders.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.buy_orders.get(line['time'])))
-                else:
-                    txt_file.write("No Buy")
-                txt_file.write("\t")
-                txt_file.write("\t")
-                if (self.sell_orders.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.sell_orders.get(line['time'])))
-                else:
-                    txt_file.write("No Sell")
-                txt_file.write("\t")
-                txt_file.write("\t")
-                if (self.balance_history.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.balance_history.get(line['time'])))
-                txt_file.write("\n")
+
 
     ##Getting previous data from Binance API, should ma
     def get_previous_data(self, old_data_time_period=10):
@@ -331,6 +280,10 @@ class TestStrategy:
             if (current_macd > 0):
                 self.stop_loss_flag = False
 
+
+
+
+
     ##Buy order
     def buy(self, time, amount, price):
         if (not self.position):
@@ -350,29 +303,6 @@ class TestStrategy:
     def sell(self, time, amount, price):
         pass
 
-    ###Plotting should change it all and put it in a seperate file
     def plot(self):
-        times = [candlestick['open_time'].strftime('%Y-%m-%d %H:%M') for candlestick in self.candlesticks]
-        close_values = [candlestick['close'] for candlestick in self.candlesticks]
-        close_values_for_buy = {}
-        for candlestick in self.candlesticks:
-            close_values_for_buy[candlestick["open_time"]] = candlestick['close']
-        vwap_times = list(self.vwap_indicator)
-        vwap_values = list(self.vwap_indicator.values())
-        buy_times = list(self.buy_orders)
-        sell_times = list(self.sell_orders)
-        plt.plot(times, close_values)
-        plt.plot(vwap_times, vwap_values, color="b")
-        print('Buy times')
+        plot.plot_candlesticks(self.candlesticks,self.macd_indicator,self.ema_values_3)
 
-        for buy_time in buy_times:
-            print(buy_time.strftime('%Y-%m-%d %H:%M'))
-            print( close_values_for_buy[buy_time])
-            plt.scatter(buy_time.strftime('%Y-%m-%d %H:%M'), close_values_for_buy[buy_time], color="g", marker='^')
-            print("Done drawing one point")
-        print('sell times')
-        print(sell_times)
-        for sell_time in sell_times:
-            plt.scatter(sell_time.strftime('%Y-%m-%d %H:%M'), close_values_for_buy[sell_time], color="r", marker='+')
-        plt.xticks([])
-        plt.show()

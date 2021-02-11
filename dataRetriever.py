@@ -15,7 +15,7 @@ print(readabletime)
 client = Client(config.API_KEY,config.API_SECRET)
 csvfile = open('data/ltc5m.csv','w',newline='')
 candlestick_writer = csv.writer(csvfile)
-date = "6 Feb, 2021"
+date = "8 Feb, 2021"
 date2 = "25 Dec, 2020"
 
 

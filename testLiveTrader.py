@@ -77,7 +77,7 @@ def run_test():
 
         ##Print to txt
         if(input_val =="print"):
-            strategy.print_to_txt(output_file_name)
+            strategy.log_to_txt(output_file_name)
             continue
 
         ##Go through all the data
