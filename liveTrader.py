@@ -1,6 +1,6 @@
 import websocket, json
 import argparse
-from liveStrategies.firstStrategy import testStrategy
+from liveStrategies.firstStrategy import TestStrategy
 
 
 
@@ -9,29 +9,34 @@ from liveStrategies.firstStrategy import testStrategy
 def parse_args():
     global crypto
     global timeframe
+    global output_file_name
+
     crypto = "ltc"
     timeframe = "1m"
+    output_file_name = "output_of_live_trader.txt"
     parser = argparse.ArgumentParser(description='Live trading bot')
     parser.add_argument('-c', '--crypto', help='Set crypto currency', required=False)
     parser.add_argument('-tf', '--timeframe', help='Set time frame', required=False)
+    parser.add_argument('-o', '--output', help='Output txt file', required=False)
     args = vars(parser.parse_args())
     if args['crypto']:
         crypto = args['crypto']
     if args['timeframe']:
         timeframe = args['timeframe']
-
+    if args['output']:
+        output_file_name = args['output']
 
 ###End of arg parsing
 
 
 def on_open(ws):
     print("Opening connection ...")
-    currency = crypto+"usdt"
-    print('Currency: ',currency,'\t Time frame: ',timeframe)
+    crypto_usdt = crypto+"usdt"
+    print('Currency: ',crypto_usdt,'\t Time frame: ',timeframe)
     subscribe_message = {
         "method": "SUBSCRIBE",
         "params": [
-            currency+"@kline_"+timeframe
+            crypto_usdt+"@kline_"+timeframe
         ],
         "id": 1
     }
@@ -42,7 +47,8 @@ def on_open(ws):
 
 def on_message(ws, message):
     message = json.loads(message)
-    strategy.add_message(message)
+    strategy.add_tick(message)
+    strategy.print_to_txt(output_file_name)
     #strategy.end()
 
 
@@ -59,10 +65,11 @@ def run_socket():
     ws = websocket.WebSocketApp(socket, on_open=on_open, on_message=on_message, on_error=on_error, on_close=on_close)
     ws.run_forever()
 
+
 def main():
     global strategy
-    strategy = testStrategy(timeframe=timeframe, crypto=crypto)
-    strategy.get_previous_data(timeperiod=100)
+    strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
+    strategy.get_previous_data(old_data_time_period=100)
     run_socket()
 
 if __name__=="__main__":

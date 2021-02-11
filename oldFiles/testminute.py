@@ -10,3 +10,6 @@ for d in dict:
 
 
 print(list(dict.values()))
+
+arr = []
+print(arr[-1])

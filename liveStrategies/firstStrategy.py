@@ -1,33 +1,41 @@
 from datetime import datetime
+from datetime import timedelta
 import math
 import configure as config
 from binance.client import Client
 import matplotlib.pyplot as plt
+from processing import vwap_processing, macd_processing
 
+class TestStrategy:
+    ###Candlesticks and ticks
 
-class testStrategy:
     candlesticks = []
     current_tick = None
     prev_tick = None
 
+    ###Stop loss variables
+
     stop_loss_flag = False
-    stop_loss_counter = 0
+    stop_loss_counter = None
+    stop_loss_counter_max = None
+
     ###Indicators
+
     ##Vwap indicator
     vwap_indicator = {}
     vwap_flag = -1
     # Assuming timeframe in minutes (To get one day)
-    VWAP_INDICATOR_LOOKBACK = 1440
-    volume_times_typicalprice = []
+    VWAP_INDICATOR_LOOKBACK = None
+    typical_price_times_volume = []
 
     ##MACD
-    EMA_MULTIPLIER_PERIODS_1 = 12
-    EMA_MULTIPLIER_PERIODS_2 = 26
-    EMA_MULTIPLIER_PERIODS_3 = 9
+    EMA_MULTIPLIER_PERIODS_1 = None
+    EMA_MULTIPLIER_PERIODS_2 = None
+    EMA_MULTIPLIER_PERIODS_3 = None
 
-    EMA_MULTIPLIER_1 = 2 / (1 + EMA_MULTIPLIER_PERIODS_1)
-    EMA_MULTIPLIER_2 = 2 / (1 + EMA_MULTIPLIER_PERIODS_2)
-    EMA_MULTIPLIER_3 = 2 / (1 + EMA_MULTIPLIER_PERIODS_3)
+    EMA_MULTIPLIER_1 = None
+    EMA_MULTIPLIER_2 = None
+    EMA_MULTIPLIER_3 = None
 
     ema_values_1 = {}
     ema_values_2 = {}
@@ -35,7 +43,9 @@ class testStrategy:
     ema_values_3 = {}
     macd_flag = -1
 
+
     ###Transactions
+
     ##Buy
     buy_orders = {}
     ##Sell
@@ -44,127 +54,113 @@ class testStrategy:
     position = {}
     ##Initial Balance
     balance_history = {}
-    balance = 100
+    balance = None
+
+
 
     def __init__(self, timeframe, crypto):
         self.crypto_usdt = crypto + "usdt"
         self.timeframe = timeframe
-        # Assuming timeframe in minutes (To get one day)
-        # self.VWAP_INDICATOR_LOOKBACK = int(1440/int(self.timeframe[0]))
+        self.initialize_variables()
         print("Processing ...")
 
-    def log(self, time, txt, dt=None):
-        print('{} {}'.format(time, txt))
+    def initialize_variables(self):
+        # Assuming timeframe in minutes (To get one day) TODO: Make it work for hours too
+        self.VWAP_INDICATOR_LOOKBACK = int(1440 / int(self.timeframe[0]))
 
-    ### Process tick by tick and store candlesticks
-    def add_message(self, message):
+        self.EMA_MULTIPLIER_PERIODS_1 = 12
+        self.EMA_MULTIPLIER_PERIODS_2 = 26
+        self.EMA_MULTIPLIER_PERIODS_3 = 9
+        self.EMA_MULTIPLIER_1 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_1)
+        self.EMA_MULTIPLIER_2 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_2)
+        self.EMA_MULTIPLIER_3 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_3)
+
+
+
+        self.balance = 100
+        self.stop_loss_counter = 0
+        self.stop_loss_counter_max = 3
+
+
+    def get_tick_from_message(self, message):
         close = message['k']['c']
         open = message['k']['o']
         high = message['k']['h']
         low = message['k']['l']
         volume = message['k']['v']
+
         # Just last three digit
-        time = datetime.utcfromtimestamp(math.floor(message['E'] / 1000)).strftime('%Y-%m-%d %H:%M')
-        minute = datetime.utcfromtimestamp(math.floor(message['E'] / 1000)).strftime('%M')
+        time = datetime.utcfromtimestamp(math.floor(int(message['E']) / 1000))
+        open_time = datetime.utcfromtimestamp(math.floor(int(message['k']['t']) / 1000))
+        close_time = datetime.utcfromtimestamp(math.floor(int(message['k']['T']) / 1000))
         tick = {
             "time": time,
-            "minute": minute,
             "open": float(open),
             "high": float(high),
             "low": float(low),
             "close": float(close),
-            "volume": float(volume)
+            "volume": float(volume),
+            "open_time": open_time,
+            "close_time": close_time
         }
-        print(self.stop_loss_counter)
+        return tick
+
+    def check_if_period_passed(self, previous_tick, current_tick):
+        return previous_tick["open_time"] != current_tick["open_time"]
+
+
+    ### Process tick by tick and store candlesticks
+    def add_tick(self, message):
+        tick = self.get_tick_from_message(message)
+
+        ##Update previous and current tick
         if (not self.current_tick):
             self.current_tick = tick
+            return
         else:
             self.prev_tick = self.current_tick
             self.current_tick = tick
 
-        ##If we have at least 2 ticks TODO: Change it to if not then continue
-        if (self.current_tick and self.prev_tick):
-            ###If one minute has passed then insert candlestick  TODO: Make it automatic
-            if (self.prev_tick['minute'] != self.current_tick['minute']):
-                # print(self.balance)
-                # self.log(time, self.prev_tick)
-                # self.log(time, self.current_tick)
-                # print("THERE IS CHANGE")
-                self.candlesticks.append(self.prev_tick)
+        ###If new candlestick, add previous one
+        if (self.check_if_period_passed(self.prev_tick, self.current_tick)):
+            ###Processing after each new candlestick here:
+            self.candlesticks.append(self.prev_tick)
+            ##VWAP processing
+            self.process_vwap()
+            ##MACD
+            self.process_macd()
 
-                ##VWAP processing
-                self.volume_times_typicalprice.append(self.process_vwap_typicalprice_times_volume())
-                self.process_vwap()
-
-                ##MACD
-                self.process_macd()
-                # self.end()
-
-                # self.test_transaction_strategy()
-                self.test_macd_strat()
-                self.balance_history[self.candlesticks[-1]['time']] = self.balance
+            # self.test_transaction_strategy()
+            self.test_macd_strat()
+            self.balance_history[self.candlesticks[-1]['time']] = self.balance
 
     ###VWAP indicator
     def process_vwap(self):
+        ###Maybe make it also a dictionary ?
+        self.typical_price_times_volume.append(vwap_processing.typical_price_times_volume(self.candlesticks[-1]))
+        vwap = vwap_processing.process_vwap(self.candlesticks, self.typical_price_times_volume,
+                                            self.VWAP_INDICATOR_LOOKBACK)
+        if(vwap):
+            self.vwap_indicator[self.candlesticks[-1]['open_time']] = vwap
 
-        if (len(self.volume_times_typicalprice) >= self.VWAP_INDICATOR_LOOKBACK):
-            # print('CAN GET VWAP')
-            volumes = [candlestick['volume'] for candlestick in self.candlesticks]
-            vwap = sum(self.volume_times_typicalprice[-self.VWAP_INDICATOR_LOOKBACK:]) / sum(
-                volumes[-self.VWAP_INDICATOR_LOOKBACK:])
-            self.vwap_indicator[self.candlesticks[-1]['time']] = vwap
-            # self.vwap_indicator.append({
-            #     "time": self.candlesticks[-1]['time'],
-            #     "vwap_indicator":
-            # })
-
-    ### TODO change prev_tick to last candlestick
-    def process_vwap_typicalprice_times_volume(self):
-        typicalprice = (self.prev_tick['close'] + self.prev_tick['high'] +
-                        self.prev_tick['low']) / 3
-        return typicalprice * self.prev_tick['volume']
 
     ###MACD and SIGNAL (Around 100 period to stabilize)
-
     def process_macd(self):
         closes = [candlestick['close'] for candlestick in self.candlesticks]
-        self.get_ema(self.EMA_MULTIPLIER_PERIODS_1, self.EMA_MULTIPLIER_1, self.ema_values_1, closes)
-        self.get_ema(self.EMA_MULTIPLIER_PERIODS_2, self.EMA_MULTIPLIER_2, self.ema_values_2, closes)
-        self.get_macd()
-        # macd_values = [float(macd['macd_indicator']) for macd in self.macd_indicator]
+        ema_value_1 = macd_processing.get_ema_value(self.EMA_MULTIPLIER_PERIODS_1, self.EMA_MULTIPLIER_1, self.ema_values_1, closes)
+        ema_value_2 = macd_processing.get_ema_value(self.EMA_MULTIPLIER_PERIODS_2, self.EMA_MULTIPLIER_2, self.ema_values_2, closes)
+        macd_value = macd_processing.get_macd_value(self.ema_values_1,self.ema_values_2)
         macd_values = list(self.macd_indicator.values())
-        self.get_ema(self.EMA_MULTIPLIER_PERIODS_3, self.EMA_MULTIPLIER_3, self.ema_values_3, macd_values)
-        # print('done process macd')
+        ema_value_3 = macd_processing.get_ema_value(self.EMA_MULTIPLIER_PERIODS_3, self.EMA_MULTIPLIER_3, self.ema_values_3, macd_values)
+        if (ema_value_1):
+            self.ema_values_1[self.candlesticks[-1]['open_time']] = ema_value_1
+        if (ema_value_2):
+            self.ema_values_2[self.candlesticks[-1]['open_time']] = ema_value_2
+        if (ema_value_3):
+            self.ema_values_3[self.candlesticks[-1]['open_time']] = ema_value_3
+        if (macd_value):
+            self.macd_indicator[self.candlesticks[-1]['open_time']] = macd_value
 
-    def get_ema(self, period, multiplier, ema_list, reference_list):
-        if (len(reference_list) >= period):
-            # print('CAN GET EMA PERIOD: ',period)
-            average = sum(reference_list[-period:]) / period
-            ##First item in the list
-            if (len(ema_list) == 0):
-                ema_list[self.candlesticks[-1]['time']] = average
-                # ema_list.append({
-                #    "time": self.candlesticks[-1]['time'],
-                #    "ema_indicator": average
-                # })
-            else:
-                recent_value = reference_list[-1]
-                spread = recent_value - ema_list[list(ema_list)[-1]]
-                ema_value = spread * multiplier + ema_list[list(ema_list)[-1]]
-                ema_list[self.candlesticks[-1]['time']] = ema_value
-                # print('Done with get ema')
-
-    def get_macd(self):
-        ###Considering ema_period_2 is bigger than the first
-        if (len(self.ema_values_2) != 0):
-            # print('CAN GET MACD')
-            macd_value = self.ema_values_1[list(self.ema_values_1)[-1]] - self.ema_values_2[list(self.ema_values_2)[-1]]
-            self.macd_indicator[self.candlesticks[-1]['time']] = macd_value
-            # self.macd_indicator.append({
-            #    "time": self.candlesticks[-1]['time'],
-            #    "macd_indicator": macd_value
-            # })
-            # print('Done with get macd')
 
     ###After processing, after getting one new candlestick
     def end(self):
@@ -187,7 +183,7 @@ class testStrategy:
     def print_to_txt(self, txt):
         with open(txt, "w") as txt_file:
             for line in self.candlesticks:
-                txt_file.write(line["time"])
+                txt_file.write(line["open_time"].strftime('%Y-%m-%d %H:%M'))
                 txt_file.write("\t")
                 txt_file.write("Close: ")
                 txt_file.write("{:.2f}".format(line["close"]))
@@ -201,18 +197,18 @@ class testStrategy:
                 txt_file.write("High: ")
                 txt_file.write("{:.2f}".format(line["high"]))
                 txt_file.write("\t")
-                if (self.vwap_indicator.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.vwap_indicator.get(line['time'])))
+                if (self.vwap_indicator.get(line['open_time'])):
+                    txt_file.write("{:.2f}".format(self.vwap_indicator.get(line['open_time'])))
                 else:
                     txt_file.write("No data")
                 txt_file.write("\t")
-                if (self.macd_indicator.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.macd_indicator.get(line['time'])))
+                if (self.macd_indicator.get(line['open_time'])):
+                    txt_file.write("{:.2f}".format(self.macd_indicator.get(line['open_time'])))
                 else:
                     txt_file.write("No data")
                 txt_file.write("\t")
-                if (self.ema_values_3.get(line['time'])):
-                    txt_file.write("{:.2f}".format(self.ema_values_3.get(line['time'])))
+                if (self.ema_values_3.get(line['open_time'])):
+                    txt_file.write("{:.2f}".format(self.ema_values_3.get(line['open_time'])))
                 else:
                     txt_file.write("No data")
                 txt_file.write("\t")
@@ -234,19 +230,32 @@ class testStrategy:
                     txt_file.write("{:.2f}".format(self.balance_history.get(line['time'])))
                 txt_file.write("\n")
 
-    ##Getting previous data from Binance API
-    def get_previous_data(self, timeperiod=10):
+    ##Getting previous data from Binance API, should ma
+    def get_previous_data(self, old_data_time_period=10):
         client = Client(config.API_KEY, config.API_SECRET)
-        ##Only if time frame in minute
-        unix_minus = timeperiod * int(self.timeframe[0]) * 60
-        # curr_time = datetime.utcnow()
-        # unix_time = time.mktime(curr_time.timetuple())
+        if(self.timeframe[1] == "m"):
+            old_time_multiplier = 60
+        elif(self.timeframe[1] == "h"):
+            old_time_multiplier = 3600
+        unix_minus = old_data_time_period * int(self.timeframe[0]) * old_time_multiplier
+
         unix_time = int(datetime.utcnow().timestamp())
         old_unix_time = unix_time - unix_minus
         old_readable_time = datetime.fromtimestamp(old_unix_time).strftime("%d %b %Y %H:%M ")
-        # print('Getting old candlesticks')
-        ###TODO: KLINE INTERVAL 1 MINUTE should depend on input time frame
-        fetched_data = client.get_historical_klines(self.crypto_usdt.upper(), Client.KLINE_INTERVAL_1MINUTE,
+
+        if(self.timeframe == "1m"):
+            old_data_timeframe = Client.KLINE_INTERVAL_1MINUTE
+        elif(self.timeframe == "5m"):
+            old_data_timeframe = Client.KLINE_INTERVAL_5MINUTE
+        elif (self.timeframe == "15m"):
+            old_data_timeframe = Client.KLINE_INTERVAL_15MINUTE
+        elif (self.timeframe == "1h"):
+            old_data_timeframe = Client.KLINE_INTERVAL_1HOUR
+        elif (self.timeframe == "2h"):
+            old_data_timeframe = Client.KLINE_INTERVAL_2HOUR
+
+
+        fetched_data = client.get_historical_klines(self.crypto_usdt.upper(), old_data_timeframe,
                                                     old_readable_time)
         old_candlesticks = []
         for row in fetched_data:
@@ -257,11 +266,13 @@ class testStrategy:
                     "h": row[2],
                     "l": row[3],
                     "c": row[4],
-                    "v": row[5]
+                    "v": row[5],
+                    "T": row[6],
+                    "t": row[0]
                 }
             })
         for old_candlestick in old_candlesticks:
-            self.add_message(old_candlestick)
+            self.add_tick(old_candlestick)
 
     ###Transactions
     def test_transaction_strategy(self):
@@ -286,6 +297,7 @@ class testStrategy:
 
     def test_macd_strat(self):
         if (self.ema_values_3):
+            current_time = self.candlesticks[-1]['open_time']
             current_macd = self.macd_indicator[list(self.macd_indicator)[-1]]
             current_signal = self.ema_values_3[list(self.ema_values_3)[-1]]
             last_close = self.candlesticks[-1]['close']
@@ -300,19 +312,19 @@ class testStrategy:
                 quantity = self.position[list(self.position)[-1]]
                 current_quantity_price = quantity * last_close
                 if (current_quantity_price < (50 * 0.98)):
-                    self.sell_all(list(self.macd_indicator)[-1], last_close)
+                    self.sell_all(current_time, last_close)
                     self.stop_loss_flag = True
                     self.stop_loss_counter += 1
 
             if (current_macd > current_signal):
                 if (self.macd_flag == 0 and current_macd < 0 and not self.stop_loss_flag):
-                    self.buy(list(self.macd_indicator)[-1], 50, last_close)
+                    self.buy(current_time, 50, last_close)
                 self.macd_flag = 1
 
 
             elif (current_macd < current_signal):
                 if (self.macd_flag == 1 and current_macd > 0):
-                    self.sell_all(list(self.macd_indicator)[-1], last_close)
+                    self.sell_all(current_time, last_close)
                     # Reset counter
                     self.stop_loss_counter = 0
                 self.macd_flag = 0
@@ -335,22 +347,32 @@ class testStrategy:
             # Empty position after selling
             self.position.clear()
 
-    def sell(selfself, time, amount, price):
+    def sell(self, time, amount, price):
         pass
 
-    ###Plotting
+    ###Plotting should change it all and put it in a seperate file
     def plot(self):
-        times = [candlestick['time'] for candlestick in self.candlesticks]
+        times = [candlestick['open_time'].strftime('%Y-%m-%d %H:%M') for candlestick in self.candlesticks]
         close_values = [candlestick['close'] for candlestick in self.candlesticks]
+        close_values_for_buy = {}
+        for candlestick in self.candlesticks:
+            close_values_for_buy[candlestick["open_time"]] = candlestick['close']
         vwap_times = list(self.vwap_indicator)
         vwap_values = list(self.vwap_indicator.values())
         buy_times = list(self.buy_orders)
         sell_times = list(self.sell_orders)
         plt.plot(times, close_values)
         plt.plot(vwap_times, vwap_values, color="b")
+        print('Buy times')
+
         for buy_time in buy_times:
-            plt.scatter(buy_time, self.buy_orders[buy_time] / 110, color="g", marker='^')
+            print(buy_time.strftime('%Y-%m-%d %H:%M'))
+            print( close_values_for_buy[buy_time])
+            plt.scatter(buy_time.strftime('%Y-%m-%d %H:%M'), close_values_for_buy[buy_time], color="g", marker='^')
+            print("Done drawing one point")
+        print('sell times')
+        print(sell_times)
         for sell_time in sell_times:
-            plt.scatter(sell_time, self.sell_orders[sell_time] / 110, color="r", marker='+')
+            plt.scatter(sell_time.strftime('%Y-%m-%d %H:%M'), close_values_for_buy[sell_time], color="r", marker='+')
         plt.xticks([])
         plt.show()

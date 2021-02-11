@@ -1,6 +1,6 @@
 import csv
 import argparse
-from liveStrategies.firstStrategy import testStrategy
+from liveStrategies.firstStrategy import TestStrategy
 
 
 
@@ -46,7 +46,9 @@ def initialize_data():
                     "h": row[2],
                     "l": row[3],
                     "c": row[4],
-                    "v": row[5]
+                    "v": row[5],
+                    "T": row[6],
+                    "t": row[0]
                 }
             })
 
@@ -82,7 +84,7 @@ def run_test():
         if(input_val == "all"):
             for i in range(len(candlesticks)):
                 message = candlesticks[idx]
-                strategy.add_message(message)
+                strategy.add_tick(message)
                 idx += 1
             continue
 
@@ -90,13 +92,13 @@ def run_test():
         if (input_val.isnumeric()):
             for i in range(int(input_val)):
                 message = candlesticks[idx]
-                strategy.add_message(message)
+                strategy.add_tick(message)
                 idx += 1
             continue
 
         ##For any other input, just process one message
         message = candlesticks[idx]
-        strategy.add_message(message)
+        strategy.add_tick(message)
         idx +=1
 
 
@@ -107,7 +109,7 @@ def run_test():
 
 def main():
     global strategy
-    strategy = testStrategy(timeframe=timeframe,crypto=crypto)
+    strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
     ##Initialize data from specified file
     initialize_data()
     run_test()
