@@ -7,9 +7,9 @@ dict = {
 for d in dict:
     print(dict[d])
 
-
+def tester():
+    return 69
 
 print(list(dict.values()))
 
 arr = []
-print(arr[-1])

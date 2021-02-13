@@ -68,7 +68,10 @@ class TestStrategy:
 
     def initialize_variables(self):
         # Assuming timeframe in minutes (To get one day) TODO: Make it work for hours too
-        self.VWAP_INDICATOR_LOOKBACK = int(1440 / int(self.timeframe[0]))
+        if(self.timeframe[1] == 'm'):
+            self.VWAP_INDICATOR_LOOKBACK = int(1440 / int(self.timeframe[0]))
+        elif(self.timeframe[1] == 'h'):
+            self.VWAP_INDICATOR_LOOKBACK = int(24 / int(self.timeframe[0]))
 
         self.EMA_MULTIPLIER_PERIODS_1 = 12
         self.EMA_MULTIPLIER_PERIODS_2 = 26
@@ -105,6 +108,7 @@ class TestStrategy:
             "open_time": open_time,
             "close_time": close_time
         }
+        print(tick)
         return tick
 
     def check_if_period_passed(self, previous_tick, current_tick):
@@ -171,7 +175,7 @@ class TestStrategy:
             candlesticks= self.candlesticks,
             vwap_indicator= self.vwap_indicator,
             macd_indicator= self.macd_indicator,
-            ema_values_3= self.ema_values_2,
+            ema_values_3= self.ema_values_3,
             buy_orders= self.buy_orders,
             sell_orders= self.sell_orders,
             balance_history= self.balance_history

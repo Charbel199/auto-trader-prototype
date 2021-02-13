@@ -19,3 +19,11 @@ Market below EMA and MACD line crosses below signal while above 0 -> Sell
 
 if last open below vwap and close above buy signal (Maybe check if next candle stick is green)
 If last open above vwap and close below sell signal
+
+
+
+
+Finish basic plotly
+Work on GUI
+Fix buy and sell to be better
+work on strategies

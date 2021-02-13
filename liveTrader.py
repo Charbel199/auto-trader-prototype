@@ -69,7 +69,7 @@ def run_socket():
 def main():
     global strategy
     strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
-    strategy.get_previous_data(old_data_time_period=100)
+    strategy.get_previous_data(old_data_time_period=300)
     run_socket()
 
 if __name__=="__main__":
