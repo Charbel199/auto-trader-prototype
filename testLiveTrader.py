@@ -57,28 +57,29 @@ def initialize_data():
 def run_test():
     idx = 0
     while True:
+
         input_val = input("Enter command: ")
         input_val = input_val.lower()
-
-        ##If all data has been processed already
-        if(idx > len(candlesticks)):
-            print('All data was processed')
-            continue
-
         ##Plot
-        if(input_val == "plot"):
+        if (input_val == "plot"):
             strategy.plot()
             continue
 
         ##Stop
-        if(input_val == "s" or input_val == "stop"):
+        if (input_val == "s" or input_val == "stop"):
             print('Done')
             break
 
         ##Print to txt
-        if(input_val =="print"):
+        if (input_val == "print"):
             strategy.log_to_txt(output_file_name)
             continue
+        ##If all data has been processed already
+        if(idx >= len(candlesticks)):
+            print('All data was processed')
+            continue
+
+
 
         ##Go through all the data
         if(input_val == "all"):
@@ -86,6 +87,9 @@ def run_test():
                 message = candlesticks[idx]
                 strategy.add_tick(message)
                 idx += 1
+                if (idx >= len(candlesticks)):
+                    print('All data was processed')
+                    break
             continue
 
         ##Number of messages to process
@@ -94,6 +98,9 @@ def run_test():
                 message = candlesticks[idx]
                 strategy.add_tick(message)
                 idx += 1
+                if (idx >= len(candlesticks)):
+                    print('All data was processed')
+                    break
             continue
 
         ##For any other input, just process one message

@@ -92,9 +92,12 @@ class TestStrategy:
         volume = message['k']['v']
 
         # Just last three digit
-        time = datetime.utcfromtimestamp(math.floor(int(message['E']) / 1000))
-        open_time = datetime.utcfromtimestamp(math.floor(int(message['k']['t']) / 1000))
-        close_time = datetime.utcfromtimestamp(math.floor(int(message['k']['T']) / 1000))
+        #time = datetime.utcfromtimestamp(math.floor(int(message['E']) / 1000))
+        time = math.floor(int(message['E']) / 1000)
+        open_time = math.floor(int(message['k']['t']) / 1000)
+        close_time = math.floor(int(message['k']['T']) / 1000)
+        #open_time = datetime.utcfromtimestamp(math.floor(int(message['k']['t']) / 1000))
+        #close_time = datetime.utcfromtimestamp(math.floor(int(message['k']['T']) / 1000))
         tick = {
             "time": time,
             "open": float(open),
@@ -132,9 +135,9 @@ class TestStrategy:
             self.process_macd()
 
 
-            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks)
-            #self.test_macd_strat()
-            self.test_local_mins_maxs()
+            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=40)
+            self.test_macd_strat()
+            #self.test_local_mins_maxs()
             self.balance_history[self.candlesticks[-1]['open_time']] = self.balance
 
     ###VWAP indicator

@@ -1,7 +1,9 @@
+from datetime import datetime
+
 def print_to_txt(txt_file, candlesticks, vwap_indicator, macd_indicator,ema_values_3, buy_orders, sell_orders, balance_history):
     with open(txt_file, "w") as txt_file:
         for line in candlesticks:
-            txt_file.write(line["open_time"].strftime('%Y-%m-%d %H:%M'))
+            txt_file.write(datetime.utcfromtimestamp(line["open_time"]).strftime('%Y-%m-%d %H:%M'))
             txt_file.write("\t")
             txt_file.write("Close: ")
             txt_file.write("{:.2f}".format(line["close"]))
