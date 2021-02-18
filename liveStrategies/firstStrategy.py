@@ -10,59 +10,63 @@ from transactions import testTransactions
 
 
 class TestStrategy:
-    ###Candlesticks and ticks
 
-    candlesticks = []
-    current_tick = None
-    prev_tick = None
-    disableTransactions = False
-    ###Stop loss variables
-
-    stop_loss_flag = False
-    stop_loss_counter = None
-    stop_loss_counter_max = None
-
-    ###Indicators
-
-    ##Vwap indicator
-    vwap_indicator = {}
-    vwap_flag = -1
-    # Assuming timeframe in minutes (To get one day)
-    VWAP_INDICATOR_LOOKBACK = None
-    typical_price_times_volume = []
-
-    ##MACD
-    EMA_MULTIPLIER_PERIODS_1 = None
-    EMA_MULTIPLIER_PERIODS_2 = None
-    EMA_MULTIPLIER_PERIODS_3 = None
-
-    EMA_MULTIPLIER_1 = None
-    EMA_MULTIPLIER_2 = None
-    EMA_MULTIPLIER_3 = None
-
-    ema_values_1 = {}
-    ema_values_2 = {}
-    macd_indicator = {}
-    ema_values_3 = {}
-    macd_flag = -1
-
-    ###Transactions
-
-    ##Buy
-    buy_orders = {}
-    ##Sell
-    sell_orders = {}
-    ##Position
-    position = {}
-    ##Initial Balance
-    balance_history = {}
-    balance = None
-
-    local_min_values = []
-    local_max_values = []
     def __init__(self, timeframe, crypto):
         self.crypto_usdt = crypto + "usdt"
         self.timeframe = timeframe
+
+        ###Candlesticks and ticks
+
+        self.candlesticks = []
+        self.current_tick = None
+        self.prev_tick = None
+        self.disableTransactions = False
+        ###Stop loss variables
+
+        self.stop_loss_flag = False
+        self.stop_loss_counter = None
+        self.stop_loss_counter_max = None
+
+        ###Indicators
+
+        ##Vwap indicator
+        self.vwap_indicator = {}
+        self.vwap_flag = -1
+        # Assuming timeframe in minutes (To get one day)
+        self.VWAP_INDICATOR_LOOKBACK = None
+        self.typical_price_times_volume = []
+
+        ##MACD
+        self.EMA_MULTIPLIER_PERIODS_1 = None
+        self.EMA_MULTIPLIER_PERIODS_2 = None
+        self.EMA_MULTIPLIER_PERIODS_3 = None
+
+        self.EMA_MULTIPLIER_1 = None
+        self.EMA_MULTIPLIER_2 = None
+        self.EMA_MULTIPLIER_3 = None
+
+        self.ema_values_1 = {}
+        self.ema_values_2 = {}
+        self.macd_indicator = {}
+        self.ema_values_3 = {}
+        self.macd_flag = -1
+
+        ###Transactions
+
+        ##Buy
+        self.buy_orders = {}
+        ##Sell
+        self.sell_orders = {}
+        ##Position
+        self.position = {}
+        ##Initial Balance
+        self.balance_history = {}
+        self.balance = None
+
+        self.local_min_values = []
+        self.local_max_values = []
+
+
         self.initialize_variables()
         print("Processing ...")
 
@@ -126,7 +130,6 @@ class TestStrategy:
 
         ###If new candlestick, add previous one
         if (self.check_if_period_passed(self.prev_tick, self.current_tick)):
-            print('new candlestick')
             ###Processing after each new candlestick here:
             self.candlesticks.append(self.prev_tick)
             ##VWAP processing
@@ -135,7 +138,7 @@ class TestStrategy:
             self.process_macd()
 
 
-            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
+            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=30)
 
             if(not self.disableTransactions):
                 self.test_macd_strat()

@@ -5,7 +5,10 @@ from processing import local_extremas
 import numpy as np
 from datetime import datetime
 import math
-def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator, buy_orders, sell_orders, local_min = None, local_max = None):
+
+
+def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator, buy_orders, sell_orders,
+                      local_min=None, local_max=None):
     fig = make_subplots(rows=2, cols=1)
 
     dates = [candlestick['open_time'] for candlestick in candlesticks]
@@ -14,22 +17,22 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
     highs = [candlestick['high'] for candlestick in candlesticks]
     lows = [candlestick['low'] for candlestick in candlesticks]
 
-    if(macd_indicator):
+    if (macd_indicator):
         macd_dates = list(macd_indicator)
         macd_values = list(macd_indicator.values())
         fig.append_trace(go.Scatter(x=macd_dates, y=macd_values, name="MACD"), row=2, col=1)
 
-    if(ema_values_3):
+    if (ema_values_3):
         ema_dates = list(ema_values_3)
         ema_values = list(ema_values_3.values())
         fig.append_trace(go.Scatter(x=ema_dates, y=ema_values, name="Signal"), row=2, col=1)
 
-    if(vwap_indicator):
+    if (vwap_indicator):
         vwap_dates = list(vwap_indicator)
         vwap_values = list(vwap_indicator.values())
         fig.append_trace(go.Scatter(x=vwap_dates, y=vwap_values, line=dict(color="cyan"), name="VWAP"), row=1, col=1)
 
-    if(buy_orders):
+    if (buy_orders):
         buy_dates = list(buy_orders)
         buy_values = []
         for buy_date in buy_dates:
@@ -41,7 +44,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
             mode="markers",
             name="Buy"
         ), row=1, col=1)
-    if(sell_orders):
+    if (sell_orders):
         sell_dates = list(sell_orders)
         sell_values = []
         for sell_date in sell_dates:
@@ -54,15 +57,13 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
             name="Sell"
         ), row=1, col=1)
 
-
-
     fig.append_trace(go.Candlestick(x=dates,
-                                         open=opens, high=highs,
-                                         low=lows, close=closes,name="Candlesticks"),row=1,col=1)
+                                    open=opens, high=highs,
+                                    low=lows, close=closes, name="Candlesticks"), row=1, col=1)
 
     projection = 600
 
-    if(local_min):
+    if (local_min):
         min_dates = list(local_min)
         min_values = list(local_min.values())
 
@@ -90,7 +91,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
 
                           ), row=1, col=1
                           )
-    if(local_max):
+    if (local_max):
         max_dates = list(local_max)
         max_values = list(local_max.values())
         fig.append_trace(go.Scatter(
@@ -118,20 +119,14 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
                           ), row=1, col=1
                           )
 
+    fig.update_xaxes(matches='x')
 
-
-
-
-
-
-
-
-
-
-    fig.update_xaxes(matches = 'x')
-
-    fig.update_layout(xaxis_rangeslider_visible=False, height=1600, width=1800, uirevision='never')
-    fig.update_layout(legend=dict(font=dict(family="Courier", size=20, color="black")),
-                      legend_title=dict(font=dict(family="Courier", size=15, color="blue")))
+    fig.update_layout(xaxis_rangeslider_visible=False, height=950, width=1300, uirevision='never',
+                      colorway=["#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400', '#FF0056'],
+                      template='plotly_dark',
+                      paper_bgcolor='rgba(0, 0, 0, 0)',
+                      plot_bgcolor='rgba(0, 0, 0, 0)', )
+    fig.update_layout(legend=dict(font=dict(family="Courier", size=20, color="white")),
+                      legend_title=dict(font=dict(family="Courier", size=15, color="white")))
     return fig
     plotly.offline.plot(fig)
