@@ -47,13 +47,6 @@ def on_open(ws):
 
 
 def on_message(ws, message):
-    global counter
-    print("ADDING MESSAGE")
-    print(counter)
-    counter = counter + 1
-    if((counter % 10) ==0):
-        print('in if')
-        strategy.plot()
     message = json.loads(message)
     strategy.add_tick(message)
     strategy.log_to_txt(output_file_name)
@@ -77,6 +70,7 @@ def run_socket():
     ws.run_forever()
 
 
+
 def main():
     global strategy
     strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
@@ -84,7 +78,6 @@ def main():
     run_socket()
 
 if __name__=="__main__":
-    counter = 0
     parse_args()
     main()
 

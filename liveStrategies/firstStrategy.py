@@ -116,7 +116,6 @@ class TestStrategy:
     ### Process tick by tick and store candlesticks
     def add_tick(self, message):
         tick = self.get_tick_from_message(message)
-        print(tick)
         ##Update previous and current tick
         if (not self.current_tick):
             self.current_tick = tick
@@ -127,6 +126,7 @@ class TestStrategy:
 
         ###If new candlestick, add previous one
         if (self.check_if_period_passed(self.prev_tick, self.current_tick)):
+            print('new candlestick')
             ###Processing after each new candlestick here:
             self.candlesticks.append(self.prev_tick)
             ##VWAP processing
@@ -184,7 +184,7 @@ class TestStrategy:
         )
 
     def plot(self):
-        plot.plot_candlesticks(
+        return plot.plot_candlesticks(
             candlesticks=self.candlesticks,
             macd_indicator=self.macd_indicator,
             ema_values_3=self.ema_values_3,
