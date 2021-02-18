@@ -2,7 +2,7 @@ from datetime import datetime
 import math
 import configure as config
 from binance.client import Client
-from processing import vwap_processing, macd_processing
+from processing import vwap_processing, macd_processing, rsi_processing
 from data_logging import log_to_txt
 from plotting import plot
 from processing import local_extremas
@@ -51,6 +51,14 @@ class TestStrategy:
         self.ema_values_3 = {}
         self.macd_flag = -1
 
+        ##RSI
+        self.rsi_indicator = {}
+        self.last_avg_gain = None
+        self.last_avg_loss = None
+        self.RSI_INDICATOR_LOOKBACK = None
+
+
+
         ###Transactions
 
         ##Buy
@@ -83,6 +91,7 @@ class TestStrategy:
         self.EMA_MULTIPLIER_1 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_1)
         self.EMA_MULTIPLIER_2 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_2)
         self.EMA_MULTIPLIER_3 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_3)
+        self.RSI_INDICATOR_LOOKBACK = 14
 
         self.balance = 100
         self.stop_loss_counter = 0
@@ -137,8 +146,9 @@ class TestStrategy:
             ##MACD
             self.process_macd()
 
-
-            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=30)
+            self.process_rsi()
+            print(self.rsi_indicator)
+            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
 
             if(not self.disableTransactions):
                 self.test_macd_strat()
@@ -173,6 +183,13 @@ class TestStrategy:
             self.ema_values_3[self.candlesticks[-1]['open_time']] = ema_value_3
         if (macd_value):
             self.macd_indicator[self.candlesticks[-1]['open_time']] = macd_value
+
+    ###RSI
+    def process_rsi(self):
+
+        self.last_avg_gain,self.last_avg_loss,rsi = rsi_processing.process_rsi(self.candlesticks, self.RSI_INDICATOR_LOOKBACK,self.last_avg_gain,self.last_avg_loss)
+        if(rsi):
+            self.rsi_indicator[self.candlesticks[-1]['open_time']] = rsi
 
     def log_to_txt(self, txt):
         log_to_txt.print_to_txt(
