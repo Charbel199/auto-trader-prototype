@@ -27,8 +27,7 @@ app.layout = html.Div(children=[
     state=[State(component_id='input',component_property='value')]
 )
 def update_value(n_clicks, input_val):
-    global idx
-    global current_figure
+
     print('Clicked with {}'.format(input_val))
 
     if (input_val == 'test'):
@@ -188,10 +187,18 @@ if __name__ == '__main__':
     strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
 
     if(True):
-        strategy.get_previous_data(old_data_time_period=300)
+        strategy.get_previous_data(old_data_time_period=2)
 
 
 
 
     app.run_server(debug=True)
 
+
+'''
+1- Backtesting or Live (Option to stop both)
+2- Delete all data button and delete all data when starting new backtesting or live
+3- Get prev data on running socket
+4- Change parameters for run
+
+'''
