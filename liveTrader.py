@@ -5,8 +5,9 @@ from liveStrategies.firstStrategy import TestStrategy
 
 
 ###Arg parsing
-
+global counter
 def parse_args():
+
     global crypto
     global timeframe
     global output_file_name
@@ -46,9 +47,18 @@ def on_open(ws):
 
 
 def on_message(ws, message):
+    global counter
+    print("ADDING MESSAGE")
+    print(counter)
+    counter = counter + 1
+    if((counter % 10) ==0):
+        print('in if')
+        strategy.plot()
     message = json.loads(message)
     strategy.add_tick(message)
     strategy.log_to_txt(output_file_name)
+
+
     #strategy.end()
 
 
@@ -59,6 +69,7 @@ def on_close(ws):
     print('Closed')
 
 def run_socket():
+
     socket = "wss://stream.binance.com:9443/ws/kline_"+timeframe
     print('Connecting ... ')
     print('Socket'+ socket)
@@ -73,6 +84,7 @@ def main():
     run_socket()
 
 if __name__=="__main__":
+    counter = 0
     parse_args()
     main()
 

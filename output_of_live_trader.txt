@@ -1,0 +1,303 @@
+2021-02-15 10:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 10:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 10:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 10:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 10:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 11:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-15 12:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 12:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 12:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	No data		No Buy		No Sell		100.00
+2021-02-15 13:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 13:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 13:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 13:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 13:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 13:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:50	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 14:55	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:00	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:05	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:10	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:15	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:20	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:25	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:30	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:35	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:40	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:45	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:50	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 15:55	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:00	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:05	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:10	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:25	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:30	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:35	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:40	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:45	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:50	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 16:55	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:00	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:05	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:10	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:15	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:20	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:25	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:35	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:40	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:45	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:50	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 17:55	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 18:00	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 18:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 18:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 18:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 18:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 18:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 19:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 20:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:15	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 21:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:40	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:45	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:50	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 21:55	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:00	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:05	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:10	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:15	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:20	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:25	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:30	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:35	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:40	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:45	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 22:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-15 23:30	Close: 0.08	Open: 0.08	Low: 0.07	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 23:35	Close: 0.07	Open: 0.08	Low: 0.07	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 23:40	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 23:45	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 23:50	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-15 23:55	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:00	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:05	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:10	Close: 0.07	Open: 0.07	Low: 0.07	High: 0.07	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:15	Close: 0.08	Open: 0.07	Low: 0.07	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 00:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 00:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 00:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 00:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 00:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 00:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 01:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 02:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 03:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 04:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 05:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 06:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 06:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 06:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 06:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 06:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 06:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 07:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 08:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 09:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	No data	0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 10:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 10:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 10:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 10:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 10:50	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 10:55	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 11:00	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 11:05	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	0.00		No Buy		No Sell		100.00
+2021-02-16 11:10	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 11:15	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 11:20	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 11:25	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 11:30	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		100.00
+2021-02-16 11:35	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		
+2021-02-16 11:40	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		
+2021-02-16 11:45	Close: 0.08	Open: 0.08	Low: 0.08	High: 0.08	0.08	-0.00	-0.00		No Buy		No Sell		

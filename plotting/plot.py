@@ -119,7 +119,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
 
     fig.update_xaxes(matches = 'x')
 
-    fig.update_layout(xaxis_rangeslider_visible=False)
+    fig.update_layout(xaxis_rangeslider_visible=False, height=1600, width=1800)
     fig.update_layout(legend=dict(font=dict(family="Courier", size=20, color="black")),
                       legend_title=dict(font=dict(family="Courier", size=15, color="blue")))
     plotly.offline.plot(fig)

@@ -1,29 +1,799 @@
-2021-02-08 00:00	Close: 150.96	Open: 150.76	Low: 149.85	High: 151.15	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:05	Close: 151.58	Open: 150.96	Low: 150.67	High: 151.60	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:10	Close: 152.55	Open: 151.57	Low: 151.51	High: 152.70	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:15	Close: 151.92	Open: 152.56	Low: 151.70	High: 152.60	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:20	Close: 151.30	Open: 151.91	Low: 151.00	High: 152.08	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:25	Close: 151.01	Open: 151.30	Low: 150.76	High: 151.47	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:30	Close: 150.61	Open: 151.00	Low: 150.46	High: 151.05	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:35	Close: 150.59	Open: 150.63	Low: 150.33	High: 150.79	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:40	Close: 150.74	Open: 150.60	Low: 150.50	High: 150.85	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:45	Close: 150.68	Open: 150.74	Low: 150.62	High: 150.90	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:50	Close: 151.06	Open: 150.67	Low: 150.67	High: 151.20	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 00:55	Close: 151.17	Open: 151.04	Low: 150.92	High: 151.45	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:00	Close: 150.69	Open: 151.15	Low: 150.41	High: 151.57	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:05	Close: 150.86	Open: 150.69	Low: 150.69	High: 151.42	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:10	Close: 151.19	Open: 150.86	Low: 150.85	High: 151.35	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:15	Close: 150.50	Open: 151.19	Low: 150.49	High: 151.19	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:20	Close: 150.10	Open: 150.51	Low: 150.08	High: 150.60	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:25	Close: 149.64	Open: 150.12	Low: 149.53	High: 150.19	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:30	Close: 148.66	Open: 149.64	Low: 148.07	High: 149.65	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:35	Close: 149.41	Open: 148.66	Low: 148.42	High: 149.57	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:40	Close: 149.63	Open: 149.40	Low: 149.27	High: 149.80	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:45	Close: 149.98	Open: 149.62	Low: 149.43	High: 150.35	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:50	Close: 150.15	Open: 149.95	Low: 149.78	High: 150.28	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 01:55	Close: 149.89	Open: 150.14	Low: 149.66	High: 150.14	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 02:00	Close: 150.03	Open: 149.89	Low: 149.30	High: 150.06	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 02:05	Close: 150.51	Open: 150.04	Low: 150.04	High: 150.60	No data	No data	No data		No Buy		No Sell		100.00
-2021-02-08 02:10	Close: 150.14	Open: 150.51	Low: 149.87	High: 150.56	No data	-0.46	No data		No Buy		No Sell		100.00
-2021-02-08 02:15	Close: 149.37	Open: 150.13	Low: 149.12	High: 150.29	No data	-0.42	No data		No Buy		No Sell		100.00
-2021-02-08 02:20	Close: 149.62	Open: 149.39	Low: 149.35	High: 149.93	No data	-0.45	No data		No Buy		No Sell		100.00
+2021-02-12 00:00	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-12 00:05	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-12 00:10	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	No data	No data		No Buy		No Sell		100.00
+2021-02-12 00:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	No data	No data		50.00		No Sell		50.00
+2021-02-12 00:20	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	No data	No data		No Buy		No Sell		50.00
+2021-02-12 00:25	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	No data	No data		No Buy		No Sell		50.00
+2021-02-12 00:30	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	No data	No data	No data		No Buy		No Sell		50.00
+2021-02-12 00:35	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	No data	No data	No data		No Buy		No Sell		50.00
+2021-02-12 00:40	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	No data	No data	No data		No Buy		50.73		100.73
+2021-02-12 00:45	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 00:50	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 00:55	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 01:00	Close: 0.92	Open: 0.94	Low: 0.92	High: 0.94	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 01:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 01:10	Close: 0.91	Open: 0.92	Low: 0.88	High: 0.92	No data	No data	No data		No Buy		No Sell		100.73
+2021-02-12 01:15	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	No data	No data		50.00		No Sell		50.73
+2021-02-12 01:20	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:30	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:35	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:50	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 01:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 02:00	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 02:05	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	No data	No data		No Buy		No Sell		50.73
+2021-02-12 02:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:15	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:20	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:25	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:30	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.92	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:40	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:45	Close: 0.91	Open: 0.90	Low: 0.89	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:50	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	No data		No Buy		No Sell		50.73
+2021-02-12 02:55	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	-0.01		No Buy		No Sell		50.73
+2021-02-12 03:00	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	-0.01		No Buy		No Sell		50.73
+2021-02-12 03:05	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.01	-0.01		No Buy		No Sell		50.73
+2021-02-12 03:10	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.01	-0.01		No Buy		No Sell		50.73
+2021-02-12 03:15	Close: 0.89	Open: 0.91	Low: 0.89	High: 0.91	No data	-0.01	-0.01		No Buy		48.88		99.61
+2021-02-12 03:20	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.01	-0.01		50.00		No Sell		49.61
+2021-02-12 03:25	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:30	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:35	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:40	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:45	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:50	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 03:55	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		49.61
+2021-02-12 04:00	Close: 0.87	Open: 0.89	Low: 0.87	High: 0.89	No data	-0.01	-0.01		No Buy		48.61		98.22
+2021-02-12 04:05	Close: 0.89	Open: 0.87	Low: 0.87	High: 0.89	No data	-0.01	-0.01		50.00		No Sell		48.22
+2021-02-12 04:10	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:15	Close: 0.89	Open: 0.89	Low: 0.88	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:20	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:25	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:35	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:40	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:45	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.01	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.00	-0.01		No Buy		No Sell		48.22
+2021-02-12 04:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	-0.01		No Buy		No Sell		48.22
+2021-02-12 05:00	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	-0.01		No Buy		No Sell		48.22
+2021-02-12 05:05	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:15	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:20	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:25	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:30	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 05:35	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 05:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 05:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 05:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 05:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:00	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:05	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:10	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:15	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 06:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:35	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:40	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 06:55	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:00	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:05	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:15	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:20	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:25	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:30	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:35	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	-0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	-0.00		No Buy		No Sell		48.22
+2021-02-12 07:55	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:00	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:05	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:15	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:25	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:30	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:40	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:45	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:50	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 08:55	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:00	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:05	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:15	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:25	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		48.22
+2021-02-12 09:30	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		51.23		99.46
+2021-02-12 09:35	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 09:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 09:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 09:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 09:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:10	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:40	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 10:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:10	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:15	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:25	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:30	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:35	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:40	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:45	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:50	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 11:55	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 12:00	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 12:05	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 12:10	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 12:15	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:25	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:30	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:40	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:45	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:50	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 12:55	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:15	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:20	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:25	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		99.46
+2021-02-12 13:30	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 13:35	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 13:40	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	No data	0.00	0.00		No Buy		No Sell		99.46
+2021-02-12 13:45	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	No data	0.01	0.00		No Buy		No Sell		99.46
+2021-02-12 13:50	Close: 0.95	Open: 0.94	Low: 0.94	High: 0.95	No data	0.01	0.00		No Buy		No Sell		99.46
+2021-02-12 13:55	Close: 0.95	Open: 0.95	Low: 0.94	High: 0.95	No data	0.01	0.00		No Buy		No Sell		99.46
+2021-02-12 14:00	Close: 0.93	Open: 0.95	Low: 0.93	High: 0.95	No data	0.01	0.00		No Buy		No Sell		99.46
+2021-02-12 14:05	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	No data	0.01	0.00		No Buy		No Sell		99.46
+2021-02-12 14:10	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	No data	0.01	0.01		No Buy		No Sell		99.46
+2021-02-12 14:15	Close: 0.93	Open: 0.94	Low: 0.93	High: 0.94	No data	0.01	0.01		No Buy		No Sell		99.46
+2021-02-12 14:20	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.01	0.01		No Buy		No Sell		99.46
+2021-02-12 14:25	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.01	0.01		No Buy		No Sell		99.46
+2021-02-12 14:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.01		No Buy		No Sell		99.46
+2021-02-12 14:35	Close: 0.89	Open: 0.92	Low: 0.89	High: 0.92	No data	0.00	0.01		No Buy		No Sell		99.46
+2021-02-12 14:40	Close: 0.91	Open: 0.89	Low: 0.89	High: 0.91	No data	-0.00	0.00		50.00		No Sell		49.46
+2021-02-12 14:45	Close: 0.90	Open: 0.91	Low: 0.89	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 14:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 14:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 15:00	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 15:05	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:15	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:20	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:25	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:30	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:35	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 15:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:05	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:30	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:35	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 16:40	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 16:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 16:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 16:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		49.46
+2021-02-12 17:45	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 17:50	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 17:55	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 18:00	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	-0.00	-0.00		No Buy		No Sell		49.46
+2021-02-12 18:05	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		51.02		100.47
+2021-02-12 18:10	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 18:15	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 18:20	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:25	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:30	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:35	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:50	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 18:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:35	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:45	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	0.00		No Buy		No Sell		100.47
+2021-02-12 19:50	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 19:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 20:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 20:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 20:10	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 20:15	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		100.47
+2021-02-12 20:20	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		50.00		No Sell		50.47
+2021-02-12 20:25	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:30	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:40	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:45	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:50	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 20:55	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:00	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:05	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:15	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	-0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 21:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 22:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	-0.00		No Buy		No Sell		50.47
+2021-02-12 22:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		50.47
+2021-02-12 22:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		50.47
+2021-02-12 22:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		50.47
+2021-02-12 22:20	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		50.47
+2021-02-12 22:25	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		50.47
+2021-02-12 22:30	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		50.46		100.93
+2021-02-12 22:35	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 22:40	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 22:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 22:50	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 22:55	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:00	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:05	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:10	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:15	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:20	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:25	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:30	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:35	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:40	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:45	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	No data	0.00	0.00		No Buy		No Sell		100.93
+2021-02-12 23:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:00	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:05	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:10	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:15	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:20	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:25	Close: 0.95	Open: 0.94	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:30	Close: 0.94	Open: 0.95	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:35	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:40	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:45	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:50	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 00:55	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:00	Close: 0.94	Open: 0.94	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:05	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:10	Close: 0.93	Open: 0.94	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:15	Close: 0.94	Open: 0.93	Low: 0.93	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:20	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:25	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:30	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:35	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:40	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:45	Close: 0.95	Open: 0.94	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:50	Close: 0.95	Open: 0.95	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 01:55	Close: 0.95	Open: 0.95	Low: 0.95	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:00	Close: 0.95	Open: 0.95	Low: 0.94	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:05	Close: 0.95	Open: 0.95	Low: 0.95	High: 0.95	0.91	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:10	Close: 0.94	Open: 0.95	Low: 0.94	High: 0.95	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:15	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:20	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:25	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:30	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:35	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:40	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:45	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:50	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 02:55	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:00	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:05	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:10	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:15	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:20	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:25	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:30	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:35	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	-0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:40	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	-0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:45	Close: 0.94	Open: 0.94	Low: 0.94	High: 0.94	0.92	-0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:50	Close: 0.93	Open: 0.94	Low: 0.93	High: 0.94	0.92	-0.00	0.00		No Buy		No Sell		100.93
+2021-02-13 03:55	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	0.92	-0.00	0.00		50.00		No Sell		50.93
+2021-02-13 04:00	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.94	0.92	-0.00	0.00		No Buy		No Sell		50.93
+2021-02-13 04:05	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:10	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:15	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:20	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:25	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:30	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:35	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:40	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:45	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:50	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 04:55	Close: 0.93	Open: 0.93	Low: 0.93	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:00	Close: 0.93	Open: 0.93	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:05	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		50.93
+2021-02-13 05:25	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		48.92		99.85
+2021-02-13 05:30	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		50.00		No Sell		49.85
+2021-02-13 05:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 05:40	Close: 0.93	Open: 0.92	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 05:45	Close: 0.92	Open: 0.93	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 05:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.93	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 05:55	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:15	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:25	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:30	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:40	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 06:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:30	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:35	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:40	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:45	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:50	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 07:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:00	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:05	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:10	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:15	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	-0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:50	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 08:55	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 09:00	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 09:05	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	-0.00		No Buy		No Sell		49.85
+2021-02-13 09:10	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		49.85
+2021-02-13 09:15	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		49.85
+2021-02-13 09:20	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		50.27		100.12
+2021-02-13 09:25	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:30	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:35	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:40	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:45	Close: 0.92	Open: 0.92	Low: 0.92	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:50	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 09:55	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 10:00	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 10:05	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 10:10	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.92	-0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 10:15	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.92	-0.00	0.00		No Buy		No Sell		100.12
+2021-02-13 10:20	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		100.12
+2021-02-13 10:25	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		100.12
+2021-02-13 10:30	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		100.12
+2021-02-13 10:35	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		100.12
+2021-02-13 10:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		100.12
+2021-02-13 10:45	Close: 0.91	Open: 0.90	Low: 0.89	High: 0.91	0.92	-0.00	-0.00		50.00		No Sell		50.12
+2021-02-13 10:50	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.92	-0.00	-0.00		No Buy		No Sell		50.12
+2021-02-13 10:55	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.92	-0.00	-0.00		No Buy		48.97		99.09
+2021-02-13 11:00	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.92	-0.01	-0.00		No Buy		No Sell		99.09
+2021-02-13 11:05	Close: 0.87	Open: 0.89	Low: 0.87	High: 0.89	0.92	-0.01	-0.00		No Buy		No Sell		99.09
+2021-02-13 11:10	Close: 0.85	Open: 0.87	Low: 0.82	High: 0.87	0.92	-0.01	-0.00		No Buy		No Sell		99.09
+2021-02-13 11:15	Close: 0.87	Open: 0.85	Low: 0.85	High: 0.87	0.92	-0.01	-0.00		50.00		No Sell		49.09
+2021-02-13 11:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.92	-0.01	-0.01		No Buy		No Sell		49.09
+2021-02-13 11:25	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.92	-0.01	-0.01		No Buy		No Sell		49.09
+2021-02-13 11:30	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.92	-0.01	-0.01		No Buy		No Sell		49.09
+2021-02-13 11:35	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	0.92	-0.01	-0.01		No Buy		No Sell		49.09
+2021-02-13 11:40	Close: 0.87	Open: 0.88	Low: 0.86	High: 0.88	0.91	-0.01	-0.01		No Buy		No Sell		49.09
+2021-02-13 11:45	Close: 0.85	Open: 0.87	Low: 0.85	High: 0.87	0.91	-0.01	-0.01		No Buy		48.97		98.06
+2021-02-13 11:50	Close: 0.86	Open: 0.85	Low: 0.85	High: 0.86	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 11:55	Close: 0.87	Open: 0.86	Low: 0.85	High: 0.87	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:00	Close: 0.86	Open: 0.87	Low: 0.85	High: 0.87	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:05	Close: 0.88	Open: 0.86	Low: 0.86	High: 0.88	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:15	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.90	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:20	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.91	0.91	-0.01	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:25	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	-0.00	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:30	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	-0.00	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:35	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	-0.00	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:40	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	-0.01		No Buy		No Sell		98.06
+2021-02-13 12:45	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 12:50	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 12:55	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 13:00	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 13:05	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 13:10	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 13:15	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 13:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:30	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:35	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 13:55	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:00	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:05	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:10	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:15	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:40	Close: 0.89	Open: 0.89	Low: 0.88	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:45	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:50	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 14:55	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:00	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	-0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 15:05	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	-0.00		No Buy		No Sell		98.06
+2021-02-13 15:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:15	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:20	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:25	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:30	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:35	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 15:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:00	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:05	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:15	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:20	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:25	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:30	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:40	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:45	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 16:55	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 17:00	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 17:05	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 17:10	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.91	-0.00	0.00		No Buy		No Sell		98.06
+2021-02-13 17:15	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.89	0.91	-0.00	0.00		50.00		No Sell		48.06
+2021-02-13 17:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:40	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:45	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:50	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 17:55	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:00	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:15	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.91	-0.00	-0.00		No Buy		No Sell		48.06
+2021-02-13 18:25	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.90	-0.00	-0.00		No Buy		48.80		96.86
+2021-02-13 18:30	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.90	-0.01	-0.00		No Buy		No Sell		96.86
+2021-02-13 18:35	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.90	-0.01	-0.00		50.00		No Sell		46.86
+2021-02-13 18:40	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.90	-0.01	-0.00		No Buy		No Sell		46.86
+2021-02-13 18:45	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.90	-0.01	-0.00		No Buy		No Sell		46.86
+2021-02-13 18:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.01	-0.01		No Buy		No Sell		46.86
+2021-02-13 18:55	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	0.90	-0.01	-0.01		No Buy		No Sell		46.86
+2021-02-13 19:00	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.90	-0.00	-0.01		No Buy		No Sell		46.86
+2021-02-13 19:05	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.90	-0.00	-0.01		No Buy		No Sell		46.86
+2021-02-13 19:10	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:15	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:40	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:45	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:50	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 19:55	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 20:00	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 20:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:10	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:15	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 20:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 20:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 20:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 20:55	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:00	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:15	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:45	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:50	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	-0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 21:55	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 22:00	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 22:05	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	-0.00		No Buy		No Sell		46.86
+2021-02-13 22:10	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		46.86
+2021-02-13 22:15	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		51.00		97.86
+2021-02-13 22:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:40	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:45	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:50	Close: 0.90	Open: 0.90	Low: 0.89	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 22:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 23:00	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 23:05	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 23:10	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 23:15	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-13 23:20	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:25	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:30	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:35	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:40	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:45	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.00		No Buy		No Sell		97.86
+2021-02-13 23:50	Close: 0.91	Open: 0.90	Low: 0.90	High: 0.91	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-13 23:55	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:00	Close: 0.92	Open: 0.91	Low: 0.91	High: 0.92	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:05	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:10	Close: 0.92	Open: 0.92	Low: 0.91	High: 0.92	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:15	Close: 0.91	Open: 0.92	Low: 0.91	High: 0.92	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:20	Close: 0.91	Open: 0.91	Low: 0.91	High: 0.91	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:25	Close: 0.91	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.01	0.01		No Buy		No Sell		97.86
+2021-02-14 00:30	Close: 0.90	Open: 0.91	Low: 0.90	High: 0.91	0.90	0.00	0.01		No Buy		No Sell		97.86
+2021-02-14 00:35	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.01		No Buy		No Sell		97.86
+2021-02-14 00:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.01		No Buy		No Sell		97.86
+2021-02-14 00:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 00:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 00:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:00	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:05	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:15	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:20	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:25	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:30	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:35	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:40	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:45	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:50	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 01:55	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	0.00		No Buy		No Sell		97.86
+2021-02-14 02:00	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.91	0.90	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:05	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:10	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:15	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.90	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:20	Close: 0.90	Open: 0.90	Low: 0.90	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:25	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		97.86
+2021-02-14 02:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		50.00		No Sell		47.86
+2021-02-14 02:35	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 02:40	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 02:45	Close: 0.90	Open: 0.89	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 02:50	Close: 0.89	Open: 0.90	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 02:55	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:00	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:05	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.90	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:10	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:15	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:20	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:25	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:30	Close: 0.89	Open: 0.89	Low: 0.89	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:35	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		47.86
+2021-02-14 03:55	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		48.85		96.71
+2021-02-14 04:00	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.01	-0.00		50.00		No Sell		46.71
+2021-02-14 04:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:15	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:25	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:30	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.01	-0.01		No Buy		No Sell		46.71
+2021-02-14 04:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.01	-0.01		No Buy		No Sell		46.71
+2021-02-14 04:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.01		No Buy		No Sell		46.71
+2021-02-14 04:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	-0.00	-0.01		No Buy		No Sell		46.71
+2021-02-14 04:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 04:55	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:00	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:15	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:20	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:25	Close: 0.87	Open: 0.87	Low: 0.86	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:30	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:35	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:40	Close: 0.87	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:45	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:50	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 05:55	Close: 0.87	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:00	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:05	Close: 0.87	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:10	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.01	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:15	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 06:55	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 07:00	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 07:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 07:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	-0.00		No Buy		No Sell		46.71
+2021-02-14 07:15	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 07:55	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 08:00	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 08:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 08:10	Close: 0.89	Open: 0.88	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		No Sell		46.71
+2021-02-14 08:15	Close: 0.88	Open: 0.89	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		50.20		96.91
+2021-02-14 08:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.89	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:45	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:50	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 08:55	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:00	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:05	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:10	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:15	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:20	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:25	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:30	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:35	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	0.00		No Buy		No Sell		96.91
+2021-02-14 09:40	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		96.91
+2021-02-14 09:45	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		96.91
+2021-02-14 09:50	Close: 0.88	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		50.00		No Sell		46.91
+2021-02-14 09:55	Close: 0.88	Open: 0.88	Low: 0.88	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:00	Close: 0.88	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:05	Close: 0.87	Open: 0.88	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:10	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:15	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:25	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:30	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:35	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:40	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:45	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:50	Close: 0.87	Open: 0.87	Low: 0.86	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 10:55	Close: 0.87	Open: 0.87	Low: 0.86	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:00	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:05	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.88	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:10	Close: 0.86	Open: 0.86	Low: 0.85	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:15	Close: 0.87	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:25	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:30	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:35	Close: 0.87	Open: 0.86	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:40	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:45	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:50	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 11:55	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.88	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:00	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:05	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:10	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:15	Close: 0.87	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:20	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:25	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:30	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:35	Close: 0.87	Open: 0.87	Low: 0.87	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:40	Close: 0.86	Open: 0.87	Low: 0.86	High: 0.87	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:45	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:50	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		46.91
+2021-02-14 12:55	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		48.97		95.88
+2021-02-14 13:00	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		50.00		No Sell		45.88
+2021-02-14 13:05	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:10	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:15	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:20	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:25	Close: 0.85	Open: 0.86	Low: 0.85	High: 0.86	0.89	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:30	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.85	0.88	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:35	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.88	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:40	Close: 0.85	Open: 0.85	Low: 0.83	High: 0.85	0.88	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:45	Close: 0.84	Open: 0.85	Low: 0.84	High: 0.85	0.88	-0.00	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:50	Close: 0.84	Open: 0.84	Low: 0.83	High: 0.84	0.88	-0.01	-0.00		No Buy		No Sell		45.88
+2021-02-14 13:55	Close: 0.84	Open: 0.84	Low: 0.83	High: 0.84	0.88	-0.01	-0.00		No Buy		48.84		94.73
+2021-02-14 14:00	Close: 0.85	Open: 0.84	Low: 0.84	High: 0.85	0.88	-0.01	-0.00		50.00		No Sell		44.73
+2021-02-14 14:05	Close: 0.84	Open: 0.85	Low: 0.84	High: 0.85	0.88	-0.01	-0.00		No Buy		No Sell		44.73
+2021-02-14 14:10	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:15	Close: 0.84	Open: 0.84	Low: 0.83	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:20	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:25	Close: 0.84	Open: 0.84	Low: 0.83	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:30	Close: 0.83	Open: 0.84	Low: 0.83	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:35	Close: 0.83	Open: 0.83	Low: 0.82	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		44.73
+2021-02-14 14:40	Close: 0.83	Open: 0.83	Low: 0.82	High: 0.84	0.88	-0.01	-0.01		No Buy		48.83		93.55
+2021-02-14 14:45	Close: 0.81	Open: 0.83	Low: 0.81	High: 0.83	0.88	-0.01	-0.01		No Buy		No Sell		93.55
+2021-02-14 14:50	Close: 0.82	Open: 0.81	Low: 0.81	High: 0.82	0.88	-0.01	-0.01		50.00		No Sell		43.55
+2021-02-14 14:55	Close: 0.83	Open: 0.82	Low: 0.82	High: 0.83	0.88	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:00	Close: 0.84	Open: 0.83	Low: 0.83	High: 0.84	0.88	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:05	Close: 0.85	Open: 0.84	Low: 0.84	High: 0.85	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:10	Close: 0.83	Open: 0.85	Low: 0.83	High: 0.85	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:15	Close: 0.83	Open: 0.83	Low: 0.82	High: 0.84	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:20	Close: 0.82	Open: 0.83	Low: 0.81	High: 0.83	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:25	Close: 0.82	Open: 0.82	Low: 0.81	High: 0.82	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:30	Close: 0.83	Open: 0.82	Low: 0.82	High: 0.83	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:35	Close: 0.82	Open: 0.83	Low: 0.82	High: 0.83	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:40	Close: 0.83	Open: 0.82	Low: 0.82	High: 0.83	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:45	Close: 0.83	Open: 0.83	Low: 0.83	High: 0.84	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:50	Close: 0.83	Open: 0.83	Low: 0.83	High: 0.83	0.87	-0.01	-0.01		No Buy		No Sell		43.55
+2021-02-14 15:55	Close: 0.83	Open: 0.83	Low: 0.82	High: 0.83	0.87	-0.00	-0.01		No Buy		No Sell		43.55
+2021-02-14 16:00	Close: 0.83	Open: 0.83	Low: 0.83	High: 0.84	0.87	-0.00	-0.01		No Buy		No Sell		43.55
+2021-02-14 16:05	Close: 0.83	Open: 0.83	Low: 0.83	High: 0.83	0.87	-0.00	-0.01		No Buy		No Sell		43.55
+2021-02-14 16:10	Close: 0.84	Open: 0.83	Low: 0.83	High: 0.84	0.87	-0.00	-0.01		No Buy		No Sell		43.55
+2021-02-14 16:15	Close: 0.85	Open: 0.84	Low: 0.83	High: 0.85	0.87	-0.00	-0.01		No Buy		No Sell		43.55
+2021-02-14 16:20	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	-0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:25	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.86	0.87	0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:30	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.86	0.87	0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:35	Close: 0.86	Open: 0.85	Low: 0.85	High: 0.86	0.87	0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:40	Close: 0.86	Open: 0.86	Low: 0.85	High: 0.86	0.87	0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:45	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.87	0.00	-0.00		No Buy		No Sell		43.55
+2021-02-14 16:50	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.87	0.01	0.00		No Buy		52.27		95.82
+2021-02-14 16:55	Close: 0.86	Open: 0.86	Low: 0.86	High: 0.86	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:00	Close: 0.86	Open: 0.86	Low: 0.85	High: 0.86	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:05	Close: 0.85	Open: 0.86	Low: 0.85	High: 0.86	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:10	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.85	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:15	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.85	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:20	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.85	0.87	0.01	0.00		No Buy		No Sell		95.82
+2021-02-14 17:25	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:30	Close: 0.85	Open: 0.85	Low: 0.85	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:35	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:40	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:45	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:50	Close: 0.84	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 17:55	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.84	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:00	Close: 0.85	Open: 0.84	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:05	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:10	Close: 0.85	Open: 0.85	Low: 0.84	High: 0.85	0.87	-0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:15	Close: 0.84	Open: 0.85	Low: 0.84	High: 0.85	0.87	-0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:20	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.85	0.87	-0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:25	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.84	0.87	-0.00	0.00		No Buy		No Sell		95.82
+2021-02-14 18:30	Close: 0.84	Open: 0.84	Low: 0.84	High: 0.84	0.86	-0.00	0.00		No Buy		No Sell		95.82

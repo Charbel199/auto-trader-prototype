@@ -15,7 +15,7 @@ class TestStrategy:
     candlesticks = []
     current_tick = None
     prev_tick = None
-
+    disableTransactions = False
     ###Stop loss variables
 
     stop_loss_flag = False
@@ -116,7 +116,7 @@ class TestStrategy:
     ### Process tick by tick and store candlesticks
     def add_tick(self, message):
         tick = self.get_tick_from_message(message)
-
+        print(tick)
         ##Update previous and current tick
         if (not self.current_tick):
             self.current_tick = tick
@@ -135,9 +135,11 @@ class TestStrategy:
             self.process_macd()
 
 
-            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=40)
-            self.test_macd_strat()
-            #self.test_local_mins_maxs()
+            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
+
+            if(not self.disableTransactions):
+                self.test_macd_strat()
+                #self.test_local_mins_maxs()
             self.balance_history[self.candlesticks[-1]['open_time']] = self.balance
 
     ###VWAP indicator
@@ -233,9 +235,10 @@ class TestStrategy:
                 }
             })
         # Process old data
+        self.disableTransactions = True
         for old_candlestick in old_candlesticks:
             self.add_tick(old_candlestick)
-
+        self.disableTransactions = False
     ###Transactions
     def test_macd_strat(self):
         if (self.ema_values_3 ):
@@ -260,7 +263,7 @@ class TestStrategy:
                 position_price = self.position['position_price']
                 current_quantity_price = quantity * last_close
 
-                if (current_quantity_price < (position_price * 0.98)):
+                if (current_quantity_price < (position_price * 0.90)):
                     print("Lost one at: ",current_time)
                     self.sell_all(current_time, last_close)
                     self.stop_loss_counter += 1
