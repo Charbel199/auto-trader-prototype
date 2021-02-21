@@ -147,12 +147,12 @@ class TestStrategy:
             self.process_macd()
 
             self.process_rsi()
-            print(self.rsi_indicator)
             self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
 
             if(not self.disableTransactions):
-                self.test_macd_strat()
+                #self.test_macd_strat()
                 #self.test_local_mins_maxs()
+                self.test_rsi_strat()
             self.balance_history[self.candlesticks[-1]['open_time']] = self.balance
 
     ###VWAP indicator
@@ -209,6 +209,7 @@ class TestStrategy:
             macd_indicator=self.macd_indicator,
             ema_values_3=self.ema_values_3,
             vwap_indicator=self.vwap_indicator,
+            rsi_indicator=self.rsi_indicator,
             buy_orders=self.buy_orders,
             sell_orders=self.sell_orders,
             local_min= self.local_min_values,
@@ -336,7 +337,33 @@ class TestStrategy:
                 if(self.local_max_values.get(tf_ago)):
                     self.sell_all(current_time, last_close)
 
+    def test_rsi_strat(self):
+        if(self.rsi_indicator):
+            current_time = self.candlesticks[-1]['open_time']
+            current_rsi = self.rsi_indicator[list(self.rsi_indicator)[-1]]
+            last_close = self.candlesticks[-1]['close']
 
+            ###Stop loss function: If price drops below 98%
+            if (self.position):
+                quantity = self.position['quantity']
+                position_price = self.position['position_price']
+                current_quantity_price = quantity * last_close
+
+                if (current_quantity_price < (position_price * 0.95)):
+                    print("Lost one at: ", current_time)
+                    self.sell_all(current_time, last_close)
+                    return
+                if (current_quantity_price > (position_price * 1.08)):
+                    if (self.up_trend()):
+                        return  # Do nothing
+                    else:
+                        self.sell_all(current_time, last_close)
+                        self.stop_loss_counter = 0
+                        return
+            if(current_rsi<=30):
+                self.buy(current_time, 50, last_close)
+            elif(current_rsi>=70):
+                self.sell_all(current_time, last_close)
 
 
     def up_trend(self, number_of_candlesticks = 3):

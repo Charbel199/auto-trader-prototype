@@ -7,9 +7,10 @@ from datetime import datetime
 import math
 
 
-def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator, buy_orders, sell_orders,
+
+def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator, rsi_indicator, buy_orders, sell_orders,
                       local_min=None, local_max=None):
-    fig = make_subplots(rows=2, cols=1)
+    fig = make_subplots(rows=3, cols=1)
 
     dates = [candlestick['open_time'] for candlestick in candlesticks]
     closes = [candlestick['close'] for candlestick in candlesticks]
@@ -31,6 +32,12 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
         vwap_dates = list(vwap_indicator)
         vwap_values = list(vwap_indicator.values())
         fig.append_trace(go.Scatter(x=vwap_dates, y=vwap_values, line=dict(color="cyan"), name="VWAP"), row=1, col=1)
+    if(rsi_indicator):
+        rsi_dates = list(rsi_indicator)
+        rsi_values = list(rsi_indicator.values())
+        fig.append_trace(go.Scatter(x=rsi_dates, y=rsi_values, line=dict(color="yellow"), name="RSI"), row=3, col=1)
+        fig.add_hline(y=30,row=3,col=1)
+        fig.add_hline(y=70, row=3, col=1)
 
     if (buy_orders):
         buy_dates = list(buy_orders)
@@ -121,7 +128,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
 
     fig.update_xaxes(matches='x')
 
-    fig.update_layout(xaxis_rangeslider_visible=False, height=950, width=1300, uirevision='never',
+    fig.update_layout(xaxis_rangeslider_visible=False, height=1250, width=1300, uirevision='never',
                       colorway=["#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400', '#FF0056'],
                       template='plotly_dark',
                       paper_bgcolor='rgba(0, 0, 0, 0)',

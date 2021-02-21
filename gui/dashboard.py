@@ -6,7 +6,15 @@ import csv
 import argparse
 from liveStrategies.firstStrategy import TestStrategy
 import websocket, json
+import dataRetriever
 import plotly.graph_objs as go
+
+
+def add_to_logs(txt):
+    global logs
+    txt = txt + '\n'
+    logs.append(txt)
+
 
 app = dash.Dash()
 app.layout = html.Div(
@@ -20,20 +28,46 @@ app.layout = html.Div(
                                   dcc.Input(id='input', value='', type='text'),
                                   html.Button('Submit', id='button'),
                                   html.Div(id='my-div'),
+                                  html.Br(),
+                                  html.Br(),
+                                  dcc.Input(id='set-crypto-text', value='', type='text'),
+                                  html.Button('Set crypto currency', id='set-crypto-button', n_clicks=0),
+                                  html.Div(id='set-crypto-output', style={'display': 'none'}),
+                                  html.Br(),
+                                  html.Br(),
+                                  dcc.Input(id='set-timeframe-text', value='', type='text'),
+                                  html.Button('Set time frame', id='set-timeframe-button', n_clicks=0),
+                                  html.Div(id='set-timeframe-output', style={'display': 'none'}),
+                                  html.Br(),
+                                  html.Br(),
                                   html.Button('Initialize Data', id='initialize-data-button', n_clicks=0),
                                   html.Div(id='initialize-data-output', style={'display': 'none'}),
-
+                                  html.Br(),
+                                  html.Br(),
                                   html.Button('Reset Strategy', id='reset-strategy-button', n_clicks=0),
                                   html.Div(id='reset-strategy-output', style={'display': 'none'}),
-
+                                  html.Br(),
+                                  html.Br(),
                                   dcc.Input(id='start-live-trader-text', value='', type='text'),
                                   html.Button('Start live trading', id='start-live-trader-button', n_clicks=0),
                                   html.Div(id='start-live-trader-output', style={'display': 'none'}),
-
+                                  html.Br(),
+                                  html.Br(),
+                                  html.Br(),
                                   html.Button('Stop live trading', id='stop-live-trader-button', n_clicks=0),
                                   html.Div(id='stop-live-trader-output', style={'display': 'none'}),
-
-                                  html.Div(id='log-div'),
+                                  html.Br(),
+                                  html.Br(),
+                                  html.Br(),
+                                  dcc.Input(id='retrieve-data-text', value='', type='text'),
+                                  dcc.Input(id='retrieve-data-text-2', value='', type='text'),
+                                  html.Button('Retrieve data', id='retrieve-data-button', n_clicks=0),
+                                  html.Div(id='retrieve-data-output', style={'display': 'none'}),
+                                  html.Br(),
+                                  html.Br(),
+                                  html.Div(id='log-div',
+                                           style={"white-space": "pre", "height": "300px", "overflow-y": "scroll",
+                                                  "border": "2px white solid"}),
                                   dcc.Interval(
                                       id='log-update',
                                       interval=2000
@@ -42,6 +76,7 @@ app.layout = html.Div(
                               ),
                      html.Div(className='eight columns div-for-charts bg-grey',
                               children=[
+                                  html.H2('GRAPHS'),
                                   dcc.Graph(id="live-graph", config={'displayModeBar': True}),
                                   dcc.Interval(
                                       id='graph-update',
@@ -60,18 +95,27 @@ app.layout = html.Div(
     state=[State(component_id='input', component_property='value')]
 )
 def update_value(n_clicks, input_val):
+    if (input_val == ''):
+        return
+    if (n_clicks <= 0):
+        return
     global idx
+    global logs
+    add_to_logs('Clicked with {}'.format(input_val))
     print('Clicked with {}'.format(input_val))
     global ws
     if (input_val == 'test'):
         print('TEST')
+        add_to_logs('Test')
         return 'test'
     if (input_val == 'stop'):
-        print('Stopping scoket')
+        print('Stopping socket')
+        add_to_logs('Stopping socket')
         ws.close()
         return 'stopped socket'
     if (input_val == 'run'):
         print('Going to run socket')
+        add_to_logs('Going to run socket')
         run_socket()
         return 'Running socket'
 
@@ -80,25 +124,31 @@ def update_value(n_clicks, input_val):
     ##Print to txt
     if (input_val == "print"):
         strategy.log_to_txt(output_file_name)
+        add_to_logs('Done Printing...')
         return 'Printing'
     ##If all data has been processed already
     if (idx >= len(candlesticks)):
         print('All data was processed')
+        add_to_logs('All data was processed')
         return 'All data was processed'
 
     ##Go through all the data
     if (input_val == "all"):
+        add_to_logs('All ...')
         for i in range(len(candlesticks)):
             message = candlesticks[idx]
             strategy.add_tick(message)
             idx += 1
             if (idx >= len(candlesticks)):
                 print('All data was processed')
+                add_to_logs('All data was processed')
                 break
+        add_to_logs('All done')
         return 'All data being processed'
 
     ##Number of messages to process
     if (input_val.isnumeric()):
+        add_to_logs('Processing data ...')
         for i in range(int(input_val)):
             message = candlesticks[idx]
             strategy.add_tick(message)
@@ -124,10 +174,13 @@ def update_graph(input_data):
 def initialize_data(n_clicks):
     if (n_clicks <= 0):
         return
+
     print('Initializing candlesticks')
 
     global candlesticks
     candlesticks = []
+    file_name = "../data/" + crypto + "" + timeframe + ".csv"
+    add_to_logs('Initializing data from ' + file_name)
     with open(file_name, 'r') as f:
         reader = csv.reader(f)
         for row in reader:
@@ -153,6 +206,7 @@ def initialize_data(n_clicks):
 def reset_strategy(n_clicks):
     if (n_clicks <= 0):
         return
+    add_to_logs('Resetting strategy')
     print('Resetting strategy')
     global strategy
     global idx
@@ -163,12 +217,13 @@ def reset_strategy(n_clicks):
 
 @app.callback(
     Output(component_id='start-live-trader-output', component_property='children'),
-    [Input(component_id='start-live-trader-button', component_property='n_clicks'),
-     Input(component_id='start-live-trader-text', component_property='value')]
+    [Input(component_id='start-live-trader-button', component_property='n_clicks')],
+    state=[State(component_id='start-live-trader-text', component_property='value')]
 )
 def start_live_trader(n_clicks, input_val):
     if (n_clicks <= 0):
         return
+    add_to_logs('Starting live trading...')
     strategy.get_previous_data(old_data_time_period=int(input_val))
     run_socket()
 
@@ -177,20 +232,67 @@ def start_live_trader(n_clicks, input_val):
     Output(component_id='stop-live-trader-output', component_property='children'),
     [Input(component_id='stop-live-trader-button', component_property='n_clicks')]
 )
-def start_live_trader(n_clicks):
+def stop_live_trader(n_clicks):
     if (n_clicks <= 0):
         return
     global ws
+    add_to_logs('Stopping live trading...')
     ws.close()
+
 
 @app.callback(
     Output(component_id='log-div', component_property='children'),
     [Input(component_id='log-update', component_property='n_intervals')]
 )
-def uodate_logs(input_data):
+def update_logs(input_data):
     global logs
-    logs = ['Added 1', 'Processing']
     return logs
+
+
+@app.callback(
+    Output(component_id='set-crypto-output', component_property='children'),
+    [Input(component_id='set-crypto-button', component_property='n_clicks')],
+    state=[State(component_id='set-crypto-text', component_property='value')]
+)
+def set_crypto(n_clicks, input_val):
+    if (n_clicks <= 0):
+        return
+
+    add_to_logs('Setting crypto to ' + input_val)
+    global crypto
+    crypto = input_val
+    return
+
+
+@app.callback(
+    Output(component_id='set-timeframe-output', component_property='children'),
+    [Input(component_id='set-timeframe-button', component_property='n_clicks')],
+    state=[State(component_id='set-timeframe-text', component_property='value')]
+)
+def set_crypto(n_clicks, input_val):
+    if (n_clicks <= 0):
+        return
+    add_to_logs('Setting timeframe to ' + input_val)
+    global timeframe
+    timeframe = input_val
+    return
+
+@app.callback(
+    Output(component_id='retrieve-data-output', component_property='children'),
+    [Input(component_id='retrieve-data-button', component_property='n_clicks')],
+    state=[State(component_id='retrieve-data-text', component_property='value'),State(component_id='retrieve-data-text-2', component_property='value')]
+)
+def retrieve_data(n_clicks, input_val, input_val2):
+    if (n_clicks <= 0):
+        return
+    if(input_val2):
+        add_to_logs('Retrieving data from ' + input_val +' to '+input_val2+' of crypto ' + crypto + " with timeframe " + timeframe)
+    else:
+        add_to_logs('Retrieving data from ' + input_val+' of crypto '+crypto+" with timeframe "+timeframe)
+    dataRetriever.retrieve_data(crypto,timeframe,input_val,input_val2)
+    add_to_logs('Done retrieving data')
+    return
+
 def parse_args():
     global crypto
     global timeframe
@@ -199,7 +301,7 @@ def parse_args():
 
     crypto = "ltc"
     timeframe = "1m"
-    file_name = "data/ltc1m.csv"
+    file_name = "../data/ltc1m.csv"
     output_file_name = "output_of_test_live_trader.txt"
     parser = argparse.ArgumentParser(description='Live trading bot')
     parser.add_argument('-c', '--crypto', help='Set crypto currency', required=False)
@@ -261,15 +363,13 @@ if __name__ == '__main__':
     parse_args()
     global idx
     global strategy
+    global logs
+    logs = []
     idx = 0
 
     strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
     app.run_server(debug=True)
 
 '''
-1- Backtesting or Live (Option to stop both)
-2- Delete all data button and delete all data when starting new backtesting or live
-3- Get prev data on running socket
-4- Change parameters for run
-
+1- Change parameters for run
 '''
