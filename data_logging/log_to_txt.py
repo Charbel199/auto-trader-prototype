@@ -47,4 +47,6 @@ def print_to_txt(txt_file, candlesticks, vwap_indicator, macd_indicator,ema_valu
             txt_file.write("\t")
             if (balance_history.get(line['time'])):
                 txt_file.write("{:.2f}".format(balance_history.get(line['time'])))
+            else:
+                txt_file.write("0")
             txt_file.write("\n")

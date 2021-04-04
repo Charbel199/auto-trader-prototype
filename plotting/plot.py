@@ -69,7 +69,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
                                     low=lows, close=closes, name="Candlesticks"), row=1, col=1)
 
     projection = 6000
-
+    '''
     if (local_min):
         min_dates = list(local_min)
         min_values = list(local_min.values())
@@ -125,6 +125,7 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
 
                           ), row=1, col=1
                           )
+    '''
 
     fig.update_xaxes(matches='x')
 

@@ -93,7 +93,7 @@ class TestStrategy:
         self.EMA_MULTIPLIER_3 = 2 / (1 + self.EMA_MULTIPLIER_PERIODS_3)
         self.RSI_INDICATOR_LOOKBACK = 14
 
-        self.balance = 100
+        self.balance = 50
         self.stop_loss_counter = 0
         self.stop_loss_counter_max = 3
 
@@ -139,20 +139,24 @@ class TestStrategy:
 
         ###If new candlestick, add previous one
         if (self.check_if_period_passed(self.prev_tick, self.current_tick)):
+
             ###Processing after each new candlestick here:
             self.candlesticks.append(self.prev_tick)
             ##VWAP processing
             self.process_vwap()
             ##MACD
             self.process_macd()
-
+            ##RSI
             self.process_rsi()
+            ##Local minimums and maximumx
             self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
 
             if(not self.disableTransactions):
+                #self.test_rsi_and_macd_strat()
                 #self.test_macd_strat()
                 #self.test_local_mins_maxs()
-                self.test_rsi_strat()
+                #self.test_rsi_strat()
+                self.test_all_strat()
             self.balance_history[self.candlesticks[-1]['open_time']] = self.balance
 
     ###VWAP indicator
@@ -284,7 +288,7 @@ class TestStrategy:
                 position_price = self.position['position_price']
                 current_quantity_price = quantity * last_close
 
-                if (current_quantity_price < (position_price * 0.90)):
+                if (current_quantity_price < (position_price * 0.95)):
                     print("Lost one at: ",current_time)
                     self.sell_all(current_time, last_close)
                     self.stop_loss_counter += 1
@@ -300,7 +304,7 @@ class TestStrategy:
 
             if (current_macd > current_signal):
                 if (self.macd_flag == 0 and current_macd < 0 and not self.stop_loss_flag ):
-                    self.buy(current_time, 50, last_close)
+                    self.buy(current_time, self.balance, last_close)
                 self.macd_flag = 1
                 return
 
@@ -364,6 +368,105 @@ class TestStrategy:
                 self.buy(current_time, 50, last_close)
             elif(current_rsi>=70):
                 self.sell_all(current_time, last_close)
+
+    def test_rsi_and_macd_strat(self):
+        if(self.rsi_indicator and self.ema_values_3 and self.vwap_indicator):
+            current_time = self.candlesticks[-1]['open_time']
+            current_rsi = self.rsi_indicator[list(self.rsi_indicator)[-1]]
+            current_macd = self.macd_indicator[list(self.macd_indicator)[-1]]
+            current_signal = self.ema_values_3[list(self.ema_values_3)[-1]]
+            current_vwap = self.vwap_indicator[list(self.vwap_indicator)[-1]]
+            last_close = self.candlesticks[-1]['close']
+            if (self.position):
+                quantity = self.position['quantity']
+                position_price = self.position['position_price']
+                current_quantity_price = quantity * last_close
+
+                if (current_quantity_price < (position_price * 0.97)):
+                    print("Lost one at: ", current_time)
+                    self.sell_all(current_time, last_close)
+                    return
+                if (current_quantity_price > (position_price * 1.06)):
+                    if (self.up_trend()):
+                        return  # Do nothing
+                    else:
+                        self.sell_all(current_time, last_close)
+                        self.stop_loss_counter = 0
+                        return
+
+            if(last_close<current_vwap):
+                return
+
+            if (current_rsi <= 30 and (current_macd/current_signal)<=3 and current_signal<0 and current_macd<0):
+                self.buy(current_time, self.balance, last_close)
+            elif (current_rsi >= 70 and (current_macd/current_signal)<=1.5 and current_signal>0 and current_macd>0):
+                self.sell_all(current_time, last_close)
+
+    def test_all_strat(self):
+        percentage = 0.6
+        number_of_candlesticks = 30
+        if(len(self.vwap_indicator)>=number_of_candlesticks):
+            current_time = self.candlesticks[-1]['open_time']
+            last_close = self.candlesticks[-1]['close']
+            current_macd = self.macd_indicator[list(self.macd_indicator)[-1]]
+            current_signal = self.ema_values_3[list(self.ema_values_3)[-1]]
+            if (self.position):
+                quantity = self.position['quantity']
+                position_price = self.position['position_price']
+                current_quantity_price = quantity * last_close
+                if (current_quantity_price < (position_price * 0.97)):
+                    print("Lost one at: ", current_time)
+                    self.sell_all(current_time, last_close)
+                    return
+                if (current_quantity_price > (position_price * 1.06)):
+                    if (self.up_trend()):
+                        return  # Do nothing
+                    else:
+                        self.sell_all(current_time, last_close)
+                        self.stop_loss_counter = 0
+                        return
+            if(not self.position):
+                #Not in position
+                if(self.check_up_trend_vwap(number_of_candlesticks=number_of_candlesticks,percentage=percentage)):
+                    #In uptrend
+                    if(self.check_RSI_drop() and (current_macd/current_signal)<=1 and current_signal<0 and current_macd<0):
+                        #RSI dropping and MACD and Signal converging
+                        self.buy(current_time, self.balance, last_close)
+            else:
+                #In position
+                if(self.check_RSI_up() and (current_macd/current_signal)<=1 and current_signal>0 and current_macd>0):
+                    #RSI going up and MACD and Signal converging
+                    self.sell_all(current_time, last_close)
+
+
+        '''
+        1- If uptrend: Trade, if not: Don't trade (Use VWAP to know if uptrend: Example: If 75% of last 40 candlesticks are above vwap -> Uptrend )
+        2- Buy when RSI is dropping from 40 and going down AND MACD and Signal are CONVERGING (Meaning: A crossover will happen)
+        3- Sell at stop loss or stop gain OR when RSI is going up from 60 AND MACD and signal are CONVERGING (Meaning: A crossover will happen)
+        '''
+    def check_up_trend_vwap(self,number_of_candlesticks,percentage):
+        last_closes = [candlestick['close'] for candlestick in self.candlesticks[-number_of_candlesticks:]]
+        last_vwaps = list(self.vwap_indicator.values())[-number_of_candlesticks:]
+        counter = 0
+        for i in range(len(last_closes)):
+            if(last_closes[i]>last_vwaps[i]):
+                counter+=1
+        if((counter/number_of_candlesticks) > percentage):
+            return True
+        else:
+            return False
+    def check_RSI_drop(self):
+        last_rsis = list(self.rsi_indicator.values())[-2:]
+        if(last_rsis[-1]<last_rsis[-2] and last_rsis[-1]<35):
+            return True
+        else:
+            return False
+    def check_RSI_up(self):
+        last_rsis = list(self.rsi_indicator.values())[-2:]
+        if (last_rsis[-1] > last_rsis[-2] and last_rsis[-1] > 65):
+            return True
+        else:
+            return False
 
 
     def up_trend(self, number_of_candlesticks = 3):

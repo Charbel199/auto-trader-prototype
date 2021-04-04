@@ -1,0 +1,10 @@
+matplotlib==3.3.4
+numpy==1.19.5
+scipy==1.6.1
+backtrader==1.9.76.123
+binance==0.3
+dash==1.19.0
+dash_core_components==1.15.0
+dash_html_components==1.1.2
+plotly==4.14.3
+websocket_client==0.58.0

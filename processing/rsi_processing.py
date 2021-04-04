@@ -8,7 +8,6 @@ def process_rsi(candlesticks, RSI_INDICATOR_LOOKBACK, previous_gain = None, prev
 
             for i in range(-RSI_INDICATOR_LOOKBACK-1,-1):
                 change = closes[i+1]-closes[i]
-                print(closes[i],' ', closes[i+1],' ',change)
                 changes.append(change)
 
             gains = []
