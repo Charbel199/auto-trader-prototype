@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Getting started
 In the current version, run: `python gui/dashboard.py`
 
-##Usage
+## Usage
 
 Browse to localhost:8050
 
@@ -22,7 +22,7 @@ For backrading: Press the `INITIALIZE DATA` button and then choose the number of
 
 For live trading: Specify the number of previous candlesticks to load (From this time point) and press `START LIVE TRADING`
 
-##TODOs
+## TODOs
 
 * Convert GUI from dashboard/plotly to tkinterg
 * Seperate binance code to standalone module
