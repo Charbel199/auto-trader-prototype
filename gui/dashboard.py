@@ -1,3 +1,5 @@
+from os import sys, path
+sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -7,7 +9,7 @@ import argparse
 from liveStrategies.firstStrategy import TestStrategy
 import websocket, json
 import dataRetriever
-import plotly.graph_objs as go
+
 
 
 def add_to_logs(txt):
@@ -359,6 +361,8 @@ def run_socket():
 
 
 if __name__ == '__main__':
+
+
     print('Launching dashboard')
     parse_args()
     global idx

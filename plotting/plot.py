@@ -137,4 +137,4 @@ def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator
     fig.update_layout(legend=dict(font=dict(family="Courier", size=20, color="white")),
                       legend_title=dict(font=dict(family="Courier", size=15, color="white")))
     return fig
-    plotly.offline.plot(fig)
+
