@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Getting started
 In the current version, run: `python gui/dashboard.py`
 
-###Usage
+##Usage
 
 Browse to localhost:8050
 
