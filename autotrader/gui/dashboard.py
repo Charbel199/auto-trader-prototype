@@ -6,10 +6,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import csv
 import argparse
-from liveStrategies.firstStrategy import TestStrategy
+from autotrader.liveStrategies.firstStrategy import TestStrategy
 import websocket, json
-import dataRetriever
-
+from autotrader import dataRetriever
 
 
 def add_to_logs(txt):
@@ -291,7 +290,7 @@ def retrieve_data(n_clicks, input_val, input_val2):
         add_to_logs('Retrieving data from ' + input_val +' to '+input_val2+' of crypto ' + crypto + " with timeframe " + timeframe)
     else:
         add_to_logs('Retrieving data from ' + input_val+' of crypto '+crypto+" with timeframe "+timeframe)
-    dataRetriever.retrieve_data(crypto,timeframe,input_val,input_val2)
+    dataRetriever.retrieve_data(crypto, timeframe, input_val, input_val2)
     add_to_logs('Done retrieving data')
     return
 
@@ -360,9 +359,7 @@ def run_socket():
     ws.run_forever()
 
 
-if __name__ == '__main__':
-
-
+def tt():
     print('Launching dashboard')
     parse_args()
     global idx
@@ -373,6 +370,10 @@ if __name__ == '__main__':
 
     strategy = TestStrategy(timeframe=timeframe, crypto=crypto)
     app.run_server(debug=True)
+if __name__ == "__main__":
+    tt()
+def test():
+    print("TESTING")
 
 '''
 1- Change parameters for run

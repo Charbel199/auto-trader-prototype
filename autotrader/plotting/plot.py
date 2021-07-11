@@ -1,11 +1,5 @@
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import plotly
-from processing import local_extremas
-import numpy as np
-from datetime import datetime
-import math
-
 
 
 def plot_candlesticks(candlesticks, macd_indicator, ema_values_3, vwap_indicator, rsi_indicator, buy_orders, sell_orders,

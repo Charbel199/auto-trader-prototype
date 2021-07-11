@@ -2,11 +2,9 @@ from datetime import datetime
 import math
 import configure as config
 from binance.client import Client
-from processing import vwap_processing, macd_processing, rsi_processing
-from data_logging import log_to_txt
-from plotting import plot
-from processing import local_extremas
-from transactions import testTransactions
+from autotrader.processing import vwap_processing, local_extremas, macd_processing, rsi_processing
+from autotrader.data_logging import log_to_txt
+from autotrader.plotting import plot
 
 
 class TestStrategy:
@@ -149,7 +147,7 @@ class TestStrategy:
             ##RSI
             self.process_rsi()
             ##Local minimums and maximumx
-            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks,order=10)
+            self.local_min_values, self.local_max_values = local_extremas.local_extrema_values(self.candlesticks, order=10)
 
             if(not self.disableTransactions):
                 #self.test_rsi_and_macd_strat()
@@ -191,7 +189,7 @@ class TestStrategy:
     ###RSI
     def process_rsi(self):
 
-        self.last_avg_gain,self.last_avg_loss,rsi = rsi_processing.process_rsi(self.candlesticks, self.RSI_INDICATOR_LOOKBACK,self.last_avg_gain,self.last_avg_loss)
+        self.last_avg_gain,self.last_avg_loss,rsi = rsi_processing.process_rsi(self.candlesticks, self.RSI_INDICATOR_LOOKBACK, self.last_avg_gain, self.last_avg_loss)
         if(rsi):
             self.rsi_indicator[self.candlesticks[-1]['open_time']] = rsi
 

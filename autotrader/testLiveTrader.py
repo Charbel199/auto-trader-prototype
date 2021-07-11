@@ -1,6 +1,6 @@
 import csv
 import argparse
-from liveStrategies.firstStrategy import TestStrategy
+from autotrader.liveStrategies.firstStrategy import TestStrategy
 
 
 
