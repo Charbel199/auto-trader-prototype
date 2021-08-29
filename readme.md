@@ -18,13 +18,12 @@ Browse to localhost:8050
 Specify the crypto currency by its abbreviation.
 Specify the time frame (Ex: 5m, 10m, 1h, ...)
 
-For backrading: Press the `INITIALIZE DATA` button and then choose the number of candlesticks to process in the top input box then `SUBMIT`.
+For backtrading: Press the `INITIALIZE DATA` button and then choose the number of candlesticks to process in the top input box then `SUBMIT`.
 
 For live trading: Specify the number of previous candlesticks to load (From this time point) and press `START LIVE TRADING`
 
 ## TODOs
 
-* Convert GUI from dashboard/plotly to tkinterg
 * Seperate binance code to standalone module
 * Make it easy to support other brokers
 * Make it easy to setup a strategy
