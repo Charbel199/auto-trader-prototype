@@ -24,6 +24,7 @@ For live trading: Specify the number of previous candlesticks to load (From this
 
 ## TODOs
 
+
 * Seperate binance code to standalone module
 * Make it easy to support other brokers
 * Make it easy to setup a strategy
